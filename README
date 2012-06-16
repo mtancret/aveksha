@@ -2,7 +2,7 @@ README for aveksha
 ================================================================================
 Description
 
-Aveksha is a hardware-software approach for non-intrusively tracing and profiling sensor network nodes. This repository contains code and associated files to construct and program an Aveksha node targeted to the TelosB mote. The dubug board is refered to as the TDB (Telos Debug Board).
+Aveksha is a hardware-software approach for non-intrusively tracing and profiling sensor network nodes. This repository contains code and associated files to construct and program an Aveksha node targeted to the TelosB mote. The debug board is referred to as the TDB (Telos Debug Board).
 
 The Aveksha approach for debugging sensor networks was first presented in SenSys 2011.
 
@@ -33,7 +33,7 @@ Compile the application using compile-app in the target directory.
 ================================================================================
 Status
 
-This project is currently EXPERIMENTAL and the code is provided as is. Before attempting to construct a board contact mtancret@purdue.edu with detials of your inteded use case, to receive comments on limitations that may be relivent to your application.
+This project is currently EXPERIMENTAL and the code is provided as is. Before attempting to construct a board contact mtancret@purdue.edu with details of your intended use case, to receive comments on limitations that may be relevant to your application. 
 
 ================================================================================
 License
