@@ -1,0 +1,524 @@
+Actel Designer Software
+Version: 9.0.0.15
+Release: v9.0
+
+Info: The design C:\Documents and Settings\Administrator\My
+      Documents\actel\TDB\designer\impl1\main.adb was last modified by software version
+      9.0.0.15.
+Opened an existing Libero design C:\Documents and Settings\Administrator\My
+Documents\actel\TDB\designer\impl1\main.adb.
+'BA_NAME' set to 'main_ba'
+'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
+'IDE_DESIGNERVIEW_COUNT' set to '1'
+'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
+'IDE_DESIGNERVIEW_REVNUM0' set to '1'
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'C:\Documents and Settings\Administrator\My
+Documents\actel\TDB\designer'
+'IDE_DESIGNERVIEW_LASTREV' set to '1'
+
+The Execute Script command succeeded ( 00:00:00 )
+Before proceeding, your design must be saved to disk.
+Save changes to C:\Documents and Settings\Administrator\My
+Documents\actel\TDB\designer\impl1\main.adb now? [OK]
+Design saved to file C:\Documents and Settings\Administrator\My
+Documents\actel\TDB\designer\impl1\main.adb.
+Check design state: COMPILE
+'MULTIPASS_LAYOUT_SEED_INDEX' set to '0'
+Design saved to file C:\Documents and Settings\Administrator\My
+Documents\actel\TDB\designer\impl1\main.adb.
+Variable MULTIPASS_LAYOUT_SEED_INDEX = 0
+----- Evaluating Initial State -------
+Check design state: LAYOUT
+Variable DEFAULT_PLACE_SEED_VARIABLE_VALUE = 0
+Variable PLACE_SEED_VARIABLE_VALUE = 0
+Info: Multi-Pass: Seed:   0
+Variable IS_POWER_GUI_SUPPORTED = 1
+Wrote timer report to file: main_timing_r1_initial.rpt
+
+The Report command succeeded ( 00:00:03 )
+Wrote timing_violations report to file: main_timing_violations_max_r1_initial.rpt
+
+The Report command succeeded ( 00:00:00 )
+Wrote timing_violations report to file: main_timing_violations_min_r1_initial.rpt
+
+The Report command succeeded ( 00:00:01 )
+Info: Derived clock created at pin: u0/u0/Core:GLC.
+Potential clocks are:
+         osc48m.
+Info: Derived clock created at pin: pld_ctr_pad_RNI7T7F[4]:Y.
+Potential clocks are:
+         mode[0]:Q.
+         mode[1]:Q.
+         pld_ctr<4>.
+Wrote power report to file: main_power_r1_initial.rpt
+
+The Report command succeeded ( 00:00:19 )
+Info: Multi-Pass: Iteration Initial, Seed Index N/A, Clock = u0/osc48m_out:Q, Freq = 39.180
+Design saved to file C:\Documents and Settings\Administrator\My
+Documents\actel\TDB\designer\impl1\main.adb.
+Wrote to the file: C:\Documents and Settings\Administrator\My
+Documents\actel\TDB\designer\impl1\main_layout.log
+
+The Export command succeeded ( 00:00:01 )
+----- Iteration 1 of 5 -----
+Variable MULTIPASS_LAYOUT_SEED_INDEX = 0
+Variable DEFAULT_PLACE_SEED_VARIABLE_VALUE = 0
+Variable MULTIPASS_LAYOUT_SEED_INDEX = 0
+'MULTIPASS_LAYOUT_SEED_INDEX' set to '1'
+Info: Multi-Pass: Seed:   0
+Info: Commit the changes made in SmartPower ?
+      Changes not commited will be lost. [YES]
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Tue Oct 26 23:50:32 2010
+
+Placer Finished: Tue Oct 26 23:50:45 2010
+Total Placer CPU Time:     00:00:13
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: main                            Started: Tue Oct 26 23:50:48 2010
+
+ 
+Iterative improvement...
+
+Timing-driven Router completed successfully.
+
+Design: main                            
+Finished: Tue Oct 26 23:51:00 2010
+Total CPU Time:     00:00:12            Total Elapsed Time: 00:00:12
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+TIMER: Max delay timing requirements have been met.
+TIMER: Min delay timing requirements have been met.
+
+The Layout command succeeded ( 00:00:33 )
+Variable IS_POWER_GUI_SUPPORTED = 1
+Wrote timer report to file: main_timing_r1_s1.rpt
+
+The Report command succeeded ( 00:00:00 )
+Wrote timing_violations report to file: main_timing_violations_max_r1_s1.rpt
+
+The Report command succeeded ( 00:00:01 )
+Wrote timing_violations report to file: main_timing_violations_min_r1_s1.rpt
+
+The Report command succeeded ( 00:00:00 )
+Info: Derived clock created at pin: u0/u0/Core:GLC.
+Potential clocks are:
+         osc48m.
+Info: Derived clock created at pin: pld_ctr_pad_RNI7T7F[4]:Y.
+Potential clocks are:
+         mode[0]:Q.
+         mode[1]:Q.
+         pld_ctr<4>.
+Wrote power report to file: main_power_r1_s1.rpt
+
+The Report command succeeded ( 00:00:01 )
+Info: Multi-Pass: Iteration 1, Seed Index 1, Clock = u0/osc48m_out:Q, Freq = 39.180, Range
+39.180 - 39.180
+Info: Commit the changes made in SmartPower ?
+      Changes not commited will be lost. [YES]
+Design closed.
+
+Info: The design C:\Documents and Settings\Administrator\My
+      Documents\actel\TDB\designer\impl1\main.adb was last modified by software version
+      9.0.0.15.
+Opened an existing Libero design C:\Documents and Settings\Administrator\My
+Documents\actel\TDB\designer\impl1\main.adb.
+'MULTIPASS_LAYOUT_SEED_INDEX' set to '1'
+Design saved to file C:\Documents and Settings\Administrator\My
+Documents\actel\TDB\designer\impl1\main.adb.
+Warning: Overwriting the existing file: C:/Documents and Settings/Administrator/My
+         Documents/actel/TDB/designer/impl1/main_layout.log.
+Wrote to the file: C:\Documents and Settings\Administrator\My
+Documents\actel\TDB\designer\impl1\main_layout.log
+
+The Export command succeeded ( 00:00:02 )
+----- Iteration 2 of 5 -----
+Variable MULTIPASS_LAYOUT_SEED_INDEX = 1
+Variable DEFAULT_PLACE_SEED_VARIABLE_VALUE = 0
+Variable MULTIPASS_LAYOUT_SEED_INDEX = 1
+'MULTIPASS_LAYOUT_SEED_INDEX' set to '2'
+Info: Multi-Pass: Seed:   86662958
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Tue Oct 26 23:51:11 2010
+
+Placer Finished: Tue Oct 26 23:51:25 2010
+Total Placer CPU Time:     00:00:14
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: main                            Started: Tue Oct 26 23:51:27 2010
+
+ 
+Iterative improvement...
+
+Timing-driven Router completed successfully.
+
+Design: main                            
+Finished: Tue Oct 26 23:51:42 2010
+Total CPU Time:     00:00:14            Total Elapsed Time: 00:00:15
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+TIMER: Max delay timing requirements have been met.
+TIMER: Min delay timing requirements have been met.
+
+The Layout command succeeded ( 00:00:38 )
+Variable IS_POWER_GUI_SUPPORTED = 1
+Wrote timer report to file: main_timing_r1_s2.rpt
+
+The Report command succeeded ( 00:00:00 )
+Wrote timing_violations report to file: main_timing_violations_max_r1_s2.rpt
+
+The Report command succeeded ( 00:00:01 )
+Wrote timing_violations report to file: main_timing_violations_min_r1_s2.rpt
+
+The Report command succeeded ( 00:00:00 )
+Info: Derived clock created at pin: u0/u0/Core:GLC.
+Potential clocks are:
+         osc48m.
+Info: Derived clock created at pin: pld_ctr_pad_RNI7T7F[4]:Y.
+Potential clocks are:
+         mode[0]:Q.
+         mode[1]:Q.
+         pld_ctr<4>.
+Wrote power report to file: main_power_r1_s2.rpt
+
+The Report command succeeded ( 00:00:18 )
+Info: Multi-Pass: Iteration 2, Seed Index 2, Clock = u0/osc48m_out:Q, Freq = 40.120, Range
+39.180 - 40.120
+Design saved to file C:\Documents and Settings\Administrator\My
+Documents\actel\TDB\designer\impl1\main.adb.
+Warning: Overwriting the existing file: C:/Documents and Settings/Administrator/My
+         Documents/actel/TDB/designer/impl1/main_layout.log.
+Wrote to the file: C:\Documents and Settings\Administrator\My
+Documents\actel\TDB\designer\impl1\main_layout.log
+
+The Export command succeeded ( 00:00:02 )
+----- Iteration 3 of 5 -----
+Variable MULTIPASS_LAYOUT_SEED_INDEX = 2
+Variable DEFAULT_PLACE_SEED_VARIABLE_VALUE = 0
+Variable MULTIPASS_LAYOUT_SEED_INDEX = 2
+'MULTIPASS_LAYOUT_SEED_INDEX' set to '3'
+Info: Multi-Pass: Seed:   8988747
+Info: Commit the changes made in SmartPower ?
+      Changes not commited will be lost. [YES]
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Tue Oct 26 23:52:11 2010
+
+Placer Finished: Tue Oct 26 23:52:24 2010
+Total Placer CPU Time:     00:00:13
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: main                            Started: Tue Oct 26 23:52:27 2010
+
+ 
+Iterative improvement...
+
+Timing-driven Router completed successfully.
+
+Design: main                            
+Finished: Tue Oct 26 23:52:39 2010
+Total CPU Time:     00:00:12            Total Elapsed Time: 00:00:12
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+TIMER: Max delay timing requirements have been met.
+TIMER: Min delay timing requirements have been met.
+
+The Layout command succeeded ( 00:00:34 )
+Variable IS_POWER_GUI_SUPPORTED = 1
+Wrote timer report to file: main_timing_r1_s3.rpt
+
+The Report command succeeded ( 00:00:00 )
+Wrote timing_violations report to file: main_timing_violations_max_r1_s3.rpt
+
+The Report command succeeded ( 00:00:01 )
+Wrote timing_violations report to file: main_timing_violations_min_r1_s3.rpt
+
+The Report command succeeded ( 00:00:00 )
+Info: Derived clock created at pin: u0/u0/Core:GLC.
+Potential clocks are:
+         osc48m.
+Info: Derived clock created at pin: pld_ctr_pad_RNI7T7F[4]:Y.
+Potential clocks are:
+         mode[0]:Q.
+         mode[1]:Q.
+         pld_ctr<4>.
+Wrote power report to file: main_power_r1_s3.rpt
+
+The Report command succeeded ( 00:00:01 )
+Info: Multi-Pass: Iteration 3, Seed Index 3, Clock = u0/osc48m_out:Q, Freq = 40.156, Range
+39.180 - 40.156
+Design saved to file C:\Documents and Settings\Administrator\My
+Documents\actel\TDB\designer\impl1\main.adb.
+Warning: Overwriting the existing file: C:/Documents and Settings/Administrator/My
+         Documents/actel/TDB/designer/impl1/main_layout.log.
+Wrote to the file: C:\Documents and Settings\Administrator\My
+Documents\actel\TDB\designer\impl1\main_layout.log
+
+The Export command succeeded ( 00:00:01 )
+----- Iteration 4 of 5 -----
+Variable MULTIPASS_LAYOUT_SEED_INDEX = 3
+Variable DEFAULT_PLACE_SEED_VARIABLE_VALUE = 0
+Variable MULTIPASS_LAYOUT_SEED_INDEX = 3
+'MULTIPASS_LAYOUT_SEED_INDEX' set to '4'
+Info: Multi-Pass: Seed:   51071856
+Info: Commit the changes made in SmartPower ?
+      Changes not commited will be lost. [YES]
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Tue Oct 26 23:52:49 2010
+
+Placer Finished: Tue Oct 26 23:53:02 2010
+Total Placer CPU Time:     00:00:13
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: main                            Started: Tue Oct 26 23:53:05 2010
+
+ 
+Iterative improvement...
+
+Timing-driven Router completed successfully.
+
+Design: main                            
+Finished: Tue Oct 26 23:53:18 2010
+Total CPU Time:     00:00:13            Total Elapsed Time: 00:00:13
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+TIMER: Max delay timing requirements have been met.
+TIMER: Min delay timing requirements have been met.
+
+The Layout command succeeded ( 00:00:34 )
+Variable IS_POWER_GUI_SUPPORTED = 1
+Wrote timer report to file: main_timing_r1_s4.rpt
+
+The Report command succeeded ( 00:00:00 )
+Wrote timing_violations report to file: main_timing_violations_max_r1_s4.rpt
+
+The Report command succeeded ( 00:00:01 )
+Wrote timing_violations report to file: main_timing_violations_min_r1_s4.rpt
+
+The Report command succeeded ( 00:00:00 )
+Info: Derived clock created at pin: u0/u0/Core:GLC.
+Potential clocks are:
+         osc48m.
+Info: Derived clock created at pin: pld_ctr_pad_RNI7T7F[4]:Y.
+Potential clocks are:
+         mode[0]:Q.
+         mode[1]:Q.
+         pld_ctr<4>.
+Wrote power report to file: main_power_r1_s4.rpt
+
+The Report command succeeded ( 00:00:01 )
+Info: Multi-Pass: Iteration 4, Seed Index 4, Clock = u0/osc48m_out:Q, Freq = 38.710, Range
+38.710 - 40.156
+Info: Commit the changes made in SmartPower ?
+      Changes not commited will be lost. [YES]
+Design closed.
+
+Info: The design C:\Documents and Settings\Administrator\My
+      Documents\actel\TDB\designer\impl1\main.adb was last modified by software version
+      9.0.0.15.
+Opened an existing Libero design C:\Documents and Settings\Administrator\My
+Documents\actel\TDB\designer\impl1\main.adb.
+'MULTIPASS_LAYOUT_SEED_INDEX' set to '4'
+Design saved to file C:\Documents and Settings\Administrator\My
+Documents\actel\TDB\designer\impl1\main.adb.
+Warning: Overwriting the existing file: C:/Documents and Settings/Administrator/My
+         Documents/actel/TDB/designer/impl1/main_layout.log.
+Wrote to the file: C:\Documents and Settings\Administrator\My
+Documents\actel\TDB\designer\impl1\main_layout.log
+
+The Export command succeeded ( 00:00:02 )
+----- Iteration 5 of 5 -----
+Variable MULTIPASS_LAYOUT_SEED_INDEX = 4
+Variable DEFAULT_PLACE_SEED_VARIABLE_VALUE = 0
+Variable MULTIPASS_LAYOUT_SEED_INDEX = 4
+'MULTIPASS_LAYOUT_SEED_INDEX' set to '5'
+Info: Multi-Pass: Seed:   78381505
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Tue Oct 26 23:53:29 2010
+
+Placer Finished: Tue Oct 26 23:53:43 2010
+Total Placer CPU Time:     00:00:14
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: main                            Started: Tue Oct 26 23:53:45 2010
+
+ 
+Iterative improvement...
+
+Timing-driven Router completed successfully.
+
+Design: main                            
+Finished: Tue Oct 26 23:53:58 2010
+Total CPU Time:     00:00:12            Total Elapsed Time: 00:00:13
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+TIMER: Max delay timing requirements have been met.
+TIMER: Min delay timing requirements have been met.
+
+The Layout command succeeded ( 00:00:35 )
+Variable IS_POWER_GUI_SUPPORTED = 1
+Wrote timer report to file: main_timing_r1_s5.rpt
+
+The Report command succeeded ( 00:00:00 )
+Wrote timing_violations report to file: main_timing_violations_max_r1_s5.rpt
+
+The Report command succeeded ( 00:00:01 )
+Wrote timing_violations report to file: main_timing_violations_min_r1_s5.rpt
+
+The Report command succeeded ( 00:00:00 )
+Info: Derived clock created at pin: u0/u0/Core:GLC.
+Potential clocks are:
+         osc48m.
+Info: Derived clock created at pin: pld_ctr_pad_RNI7T7F[4]:Y.
+Potential clocks are:
+         mode[0]:Q.
+         mode[1]:Q.
+         pld_ctr<4>.
+Wrote power report to file: main_power_r1_s5.rpt
+
+The Report command succeeded ( 00:00:01 )
+Info: Multi-Pass: Iteration 5, Seed Index 5, Clock = u0/osc48m_out:Q, Freq = 37.428, Range
+37.428 - 40.156
+Info: Commit the changes made in SmartPower ?
+      Changes not commited will be lost. [YES]
+Design closed.
+
+Info: The design C:\Documents and Settings\Administrator\My
+      Documents\actel\TDB\designer\impl1\main.adb was last modified by software version
+      9.0.0.15.
+Opened an existing Libero design C:\Documents and Settings\Administrator\My
+Documents\actel\TDB\designer\impl1\main.adb.
+'MULTIPASS_LAYOUT_SEED_INDEX' set to '5'
+Design saved to file C:\Documents and Settings\Administrator\My
+Documents\actel\TDB\designer\impl1\main.adb.
+Warning: Overwriting the existing file: C:/Documents and Settings/Administrator/My
+         Documents/actel/TDB/designer/impl1/main_layout.log.

@@ -1,0 +1,126 @@
+# Reading C:/Actel/Libero_v9.0/Model/tcl/vsim/pref.tcl 
+# do run.do 
+# INFO: Simulation library presynth already exists 
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Model Technology ModelSim ACTEL vlog 6.5d Compiler 2009.11 Nov 19 2009
+# -- Compiling module clocks
+# 
+# Top level modules:
+# 	clocks
+# Model Technology ModelSim ACTEL vlog 6.5d Compiler 2009.11 Nov 19 2009
+# -- Compiling module clock_manager
+# 
+# Top level modules:
+# 	clock_manager
+# Model Technology ModelSim ACTEL vlog 6.5d Compiler 2009.11 Nov 19 2009
+# -- Compiling module io_controller
+# 
+# Top level modules:
+# 	io_controller
+# Model Technology ModelSim ACTEL vlog 6.5d Compiler 2009.11 Nov 19 2009
+# -- Compiling module jtag_shift
+# 
+# Top level modules:
+# 	jtag_shift
+# Model Technology ModelSim ACTEL vlog 6.5d Compiler 2009.11 Nov 19 2009
+# -- Compiling module jtag_pc_poll
+# 
+# Top level modules:
+# 	jtag_pc_poll
+# Model Technology ModelSim ACTEL vlog 6.5d Compiler 2009.11 Nov 19 2009
+# -- Compiling module program_table_mem
+# 
+# Top level modules:
+# 	program_table_mem
+# Model Technology ModelSim ACTEL vlog 6.5d Compiler 2009.11 Nov 19 2009
+# -- Compiling module program_table_loader
+# 
+# Top level modules:
+# 	program_table_loader
+# Model Technology ModelSim ACTEL vlog 6.5d Compiler 2009.11 Nov 19 2009
+# -- Compiling module function_search
+# 
+# Top level modules:
+# 	function_search
+# Model Technology ModelSim ACTEL vlog 6.5d Compiler 2009.11 Nov 19 2009
+# -- Compiling module mem_manager
+# 
+# Top level modules:
+# 	mem_manager
+# Model Technology ModelSim ACTEL vlog 6.5d Compiler 2009.11 Nov 19 2009
+# -- Compiling module output_buffer
+# 
+# Top level modules:
+# 	output_buffer
+# Model Technology ModelSim ACTEL vlog 6.5d Compiler 2009.11 Nov 19 2009
+# -- Compiling module jtag_controller
+# 
+# Top level modules:
+# 	jtag_controller
+# Model Technology ModelSim ACTEL vlog 6.5d Compiler 2009.11 Nov 19 2009
+# -- Compiling module main
+# 
+# Top level modules:
+# 	main
+# vsim -L igloo -L presynth -t 1ps presynth.main 
+# //  ModelSim ACTEL 6.5d Nov 19 2009 
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading presynth.main
+# Loading presynth.clock_manager
+# Loading presynth.clocks
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Administrator  Hostname: MATTHEWTANC0DD1  ProcessID: 2648
+#           Attempting to use alternate WLF file "./wlft1wvvma".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft1wvvma
+# ** Warning: (vsim-3010) [TSCALE] - Module 'clocks' has a `timescale directive in effect, but previous modules do not.
+#         Region: /main/u0/u0
+# Loading igloo.VCC
+# Loading igloo.GND
+# Loading igloo.PLL
+# Loading igloo.PLLPRIM
+# Loading igloo.PLLINT
+# Loading presynth.io_controller
+# ** Warning: (vsim-3009) [TSCALE] - Module 'io_controller' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /main/u2
+# Loading presynth.jtag_controller
+# ** Warning: (vsim-3009) [TSCALE] - Module 'jtag_controller' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /main/u3
+# Loading presynth.jtag_pc_poll
+# ** Warning: (vsim-3009) [TSCALE] - Module 'jtag_pc_poll' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /main/u3/u0
+# Loading presynth.jtag_shift
+# ** Warning: (vsim-3009) [TSCALE] - Module 'jtag_shift' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /main/u3/u0/u0
+# Loading presynth.mem_manager
+# ** Warning: (vsim-3009) [TSCALE] - Module 'mem_manager' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /main/u3/u1
+# Loading presynth.program_table_mem
+# Loading igloo.RAM4K9
+# Loading igloo.INV
+# Loading presynth.program_table_loader
+# ** Warning: (vsim-3009) [TSCALE] - Module 'program_table_loader' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /main/u3/u1/u1
+# Loading presynth.function_search
+# ** Warning: (vsim-3009) [TSCALE] - Module 'function_search' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /main/u3/u1/u2
+# Loading presynth.output_buffer
+# ** Warning: (vsim-3009) [TSCALE] - Module 'output_buffer' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /main/u3/u2
+# ** Warning: (vsim-3017) C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/main.v(65): [TFMPC] - Too few port connections. Expected 9, found 8.
+#         Region: /main/u0
+# ** Warning: (vsim-3722) C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/main.v(65): [TFMPC] - Missing connection for port 'osc12m'.
+# ** Warning: (vsim-3017) C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/clock_manager.v(34): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /main/u0/u0
+# ** Warning: (vsim-3722) C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/clock_manager.v(34): [TFMPC] - Missing connection for port 'LOCK'.
+# ** Warning: (vsim-3017) C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/jtag_pc_poll.v(45): [TFMPC] - Too few port connections. Expected 12, found 11.
+#         Region: /main/u3/u0/u0

@@ -1,0 +1,27 @@
+Synopsys Actel Technology Mapper, Version map500act, Build 058R, Built Jan 18 2010 09:16:23
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version D-2009.12A
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+@W|Ignoring synthesis effort setting for the design. This is not supported by the current technology.
+
+@N: BN116 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\smartgen\program_table_mem\program_table_mem.v":59:8:59:29|Removing sequential instance program_table_mem_R0C3 of view:IGLOO.RAM4K9(prim) because there are no references to its outputs 
+@N: BN116 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\smartgen\program_table_mem\program_table_mem.v":38:8:38:29|Removing sequential instance program_table_mem_R0C1 of view:IGLOO.RAM4K9(prim) because there are no references to its outputs 
+@N: BN116 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\smartgen\program_table_mem\program_table_mem.v":17:8:17:29|Removing sequential instance program_table_mem_R0C0 of view:IGLOO.RAM4K9(prim) because there are no references to its outputs 
+@W: BN126 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\smartgen\program_table_mem\program_table_mem.v":5:7:5:23|*Net "RD_1[0]" in work.program_table_mem(verilog) is missing a driver 
+@W: BN126 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\smartgen\program_table_mem\program_table_mem.v":5:7:5:23|*Net "RD_1[1]" in work.program_table_mem(verilog) is missing a driver 
+@W: BN126 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\smartgen\program_table_mem\program_table_mem.v":5:7:5:23|*Net "RD_1[2]" in work.program_table_mem(verilog) is missing a driver 
+@W: BN126 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\smartgen\program_table_mem\program_table_mem.v":5:7:5:23|*Net "RD_1[3]" in work.program_table_mem(verilog) is missing a driver 
+@W: BN126 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\smartgen\program_table_mem\program_table_mem.v":5:7:5:23|*Net "RD_1[4]" in work.program_table_mem(verilog) is missing a driver 
+@W: BN126 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\smartgen\program_table_mem\program_table_mem.v":5:7:5:23|*Net "RD_1[5]" in work.program_table_mem(verilog) is missing a driver 
+@W: BN126 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\smartgen\program_table_mem\program_table_mem.v":5:7:5:23|*Net "RD_1[6]" in work.program_table_mem(verilog) is missing a driver 
+@W: BN126 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\smartgen\program_table_mem\program_table_mem.v":5:7:5:23|*Net "RD_1[7]" in work.program_table_mem(verilog) is missing a driver 
+@W: BN126 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\smartgen\program_table_mem\program_table_mem.v":5:7:5:23|*Net "RD_1[12]" in work.program_table_mem(verilog) is missing a driver 
+@W: BN126 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\smartgen\program_table_mem\program_table_mem.v":5:7:5:23|*Net "RD_1[13]" in work.program_table_mem(verilog) is missing a driver 
+@W: BN126 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\smartgen\program_table_mem\program_table_mem.v":5:7:5:23|*Net "RD_1[14]" in work.program_table_mem(verilog) is missing a driver 
+@W: BN126 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\smartgen\program_table_mem\program_table_mem.v":5:7:5:23|*Net "RD_1[15]" in work.program_table_mem(verilog) is missing a driver 
+@N: BN225 |Writing default property annotation file C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\synthesis\main.sap.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Feb 14 22:59:45 2011
+
+###########################################################]

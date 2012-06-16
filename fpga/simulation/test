@@ -1,0 +1,2 @@
+reset
+force -freeze sim:/main/osc48m 1 0, 0 {50 ps} -r 100

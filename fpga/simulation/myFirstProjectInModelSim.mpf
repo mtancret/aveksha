@@ -1,0 +1,64 @@
+[Library]
+others = $MODEL_TECH/../modelsim.ini
+igloo = C:/Actel/Libero_v9.0/Designer/lib/modelsim/precompiled/vlog/igloo
+
+
+
+syncad_vhdl_lib = C:\Actel\Libero_v9.0\Designer/lib/actel/syncad_vhdl_lib
+
+presynth = presynth
+postlayout = ../designer/impl1/simulation/postlayout
+work = work
+[vcom]
+VHDL93 = 1
+
+[vsim]
+IterationLimit = 5000
+RunLength = 0 ns
+[Project]
+; Warning -- Do not edit the project properties directly.
+;            Property names are dynamic in nature and property
+;            values have special syntax.  Changing property data directly
+;            can result in a corrupt MPF file.  All project properties
+;            can be modified through project window dialogs.
+Project_Version = 6
+Project_DefaultLib = work
+Project_SortMethod = unused
+Project_Files_Count = 0
+Project_Sim_Count = 1
+Project_Sim_0 = Simulation 1
+Project_Sim_P_0 = Generics {} timing default -std_output {} -nopsl 0 +notimingchecks 0 -L {} selected_du {} -hazards 0 -sdf {} ok 1 -0in 0 -nosva 0 folder {Top Level} +pulse_r {} -absentisempty 0 OtherArgs {} -multisource_delay {} +pulse_e {} vopt_env 0 -coverage 0 -sdfnoerror 0 +plusarg {} -vital2.2b 0 -t default -memprof 0 is_vopt_flow 0 additional_dus presynth.clock_manager -noglitch 0 -nofileshare 0 -wlf {} -assertdebug 0 +no_pulse_msg 0 -0in_options {} -assertfile {} -sdfnowarn 0 -Lf {} -std_input {}
+Project_Folder_Count = 0
+Echo_Compile_Output = 0
+Save_Compile_Report = 1
+Project_Opt_Count = 0
+ForceSoftPaths = 0
+ProjectStatusDelay = 5000
+VERILOG_DoubleClick = Edit
+VERILOG_CustomDoubleClick = 
+SYSTEMVERILOG_DoubleClick = Edit
+SYSTEMVERILOG_CustomDoubleClick = 
+VHDL_DoubleClick = Edit
+VHDL_CustomDoubleClick = 
+PSL_DoubleClick = Edit
+PSL_CustomDoubleClick = 
+TEXT_DoubleClick = Edit
+TEXT_CustomDoubleClick = 
+SYSTEMC_DoubleClick = Edit
+SYSTEMC_CustomDoubleClick = 
+TCL_DoubleClick = Edit
+TCL_CustomDoubleClick = 
+MACRO_DoubleClick = Edit
+MACRO_CustomDoubleClick = 
+VCD_DoubleClick = Edit
+VCD_CustomDoubleClick = 
+SDF_DoubleClick = Edit
+SDF_CustomDoubleClick = 
+XML_DoubleClick = Edit
+XML_CustomDoubleClick = 
+LOGFILE_DoubleClick = Edit
+LOGFILE_CustomDoubleClick = 
+UCDB_DoubleClick = Edit
+UCDB_CustomDoubleClick = 
+Project_Major_Version = 6
+Project_Minor_Version = 5

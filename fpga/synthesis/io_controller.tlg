@@ -1,0 +1,17 @@
+Selecting top level module io_controller
+@N: CG364 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":2:7:2:19|Synthesizing module io_controller
+
+@A: CL106 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Register io_saved with async load is being synthesized in compatability mode. A Synthesis/Simulation mismatch is possible.
+@A: CL106 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Register mode with async load is being synthesized in compatability mode. A Synthesis/Simulation mismatch is possible.
+@A: CL106 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Register mode_reset with async load is being synthesized in compatability mode. A Synthesis/Simulation mismatch is possible.
+@A: CL106 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Register next_state with async load is being synthesized in compatability mode. A Synthesis/Simulation mismatch is possible.
+@A: CL106 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Register saved_tck with async load is being synthesized in compatability mode. A Synthesis/Simulation mismatch is possible.
+@A: CL106 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Register saved_tdi with async load is being synthesized in compatability mode. A Synthesis/Simulation mismatch is possible.
+@A: CL106 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Register saved_tms with async load is being synthesized in compatability mode. A Synthesis/Simulation mismatch is possible.
+@W: CL113 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Feedback mux created for signal mode[1:1].
+@W: CL118 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Latch generated from always block for signal mode[1], probably caused by a missing assignment in an if or case stmt
+@W: CL113 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Feedback mux created for signal NoName.
+@W: CL113 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Feedback mux created for signal NoName.
+@W: CL113 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Feedback mux created for signal NoName.
+@W: CL113 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Feedback mux created for signal mode[0:0].
+@W: CL118 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Latch generated from always block for signal mode[0], probably caused by a missing assignment in an if or case stmt

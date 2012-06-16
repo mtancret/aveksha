@@ -1,0 +1,26 @@
+vsim presynth.clock_manager
+# vsim presynth.clock_manager 
+# Loading presynth.clock_manager
+# Loading presynth.clocks
+# ** Warning: (vsim-3010) [TSCALE] - Module 'clocks' has a `timescale directive in effect, but previous modules do not.
+#         Region: /clock_manager/u0
+# ** Error: (vsim-3033) C:/Documents and Settings/Administrator/My Documents/actel/TDB/smartgen/clocks/clocks.v(11): Instantiation of 'VCC' failed. The design unit was not found.
+#         Region: /clock_manager/u0
+#         Searched libraries:
+#             C:\Documents and Settings\Administrator\My Documents\actel\TDB\simulation\presynth
+# ** Error: (vsim-3033) C:/Documents and Settings/Administrator/My Documents/actel/TDB/smartgen/clocks/clocks.v(12): Instantiation of 'GND' failed. The design unit was not found.
+#         Region: /clock_manager/u0
+#         Searched libraries:
+#             C:\Documents and Settings\Administrator\My Documents\actel\TDB\simulation\presynth
+# ** Error: (vsim-3033) C:/Documents and Settings/Administrator/My Documents/actel/TDB/smartgen/clocks/clocks.v(34): Instantiation of 'PLL' failed. The design unit was not found.
+#         Region: /clock_manager/u0
+#         Searched libraries:
+#             C:\Documents and Settings\Administrator\My Documents\actel\TDB\simulation\presynth
+# ** Error: (vsim-3033) C:/Documents and Settings/Administrator/My Documents/actel/TDB/smartgen/clocks/clocks.v(35): Instantiation of 'PLLINT' failed. The design unit was not found.
+#         Region: /clock_manager/u0
+#         Searched libraries:
+#             C:\Documents and Settings\Administrator\My Documents\actel\TDB\simulation\presynth
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./run.do PAUSED at line 15

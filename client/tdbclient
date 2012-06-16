@@ -1,0 +1,219 @@
+#!/usr/bin/env python
+
+# tdbclient
+# Purpose: Client for the TDB debug board.
+# Author(s): Matthew Tan Creti
+#
+# Copyright 2011 Purdue University
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+import time
+import os
+from serial import *
+
+# 2^12ADC / 2.5V * 210XFactor
+ADC_COUNT_PER_V = (1<<12) / 2.5 * 210
+MOTE_SENSE_RESIST = 3.74
+MOTE_VIN = 3.3
+
+#ser = Serial(port=os.getenv("TDB"), baudrate=115200, timeout=1)
+ser = Serial(port=os.getenv("TDB"), baudrate=1000000, timeout=1)
+ser.flushInput()
+ser.setDTR(False)
+
+print ser.readline()
+ser.write("start trace\n")
+ser.flush()
+
+readCount = 0
+lastUsTime = 0
+lastAdcCount = 0
+lastAdcSamples = 0
+type = 0
+start = 0
+lastAddress = 0
+startCount = 0
+profile = {}
+funcCount = 0
+startTime = 0
+while(1):
+	start = type
+	type = ""
+	while (type == ""):
+		type = ser.read(1)
+	type = ord(type)
+
+	if (start == 0):
+		if (type == 1):
+			# read 64-bit timestamp
+			usTime=0
+			for i in range(0,64,8):
+				c = ord(ser.read(1))
+				usTime+=(c<<i)
+
+			# read 64-bit ADC count
+			adcCount=0
+			for i in range(0,64,8):
+				c = ord(ser.read(1))
+				adcCount+=(c<<i)
+
+			# read 32-bit sample count
+			adcSamples=0
+			for i in range(0,32,8):
+				c = ord(ser.read(1))
+				adcSamples+=(c<<i)
+
+			if (lastUsTime != 0):
+				deltaUsTime = usTime - lastUsTime
+				deltaAdcCount = adcCount - lastAdcCount
+				deltaAdcSamples = adcSamples - lastAdcSamples
+
+				# power in mW
+				if (deltaAdcSamples > 0):
+					power = deltaAdcCount / float(deltaAdcSamples) / ADC_COUNT_PER_V / MOTE_SENSE_RESIST * MOTE_VIN * 1000
+					print "p%fs, %fmW" % (usTime/1000000.0, power)
+
+			lastUsTime = usTime
+			lastAdcCount = adcCount
+			lastAdcSamples = adcSamples
+		if (type == 2):
+			# read 64-bit timestamp
+			usTime=0
+			for i in range(0,64,8):
+				c = ord(ser.read(1))
+				usTime+=(c<<i)
+
+			# read 64-bit ADC count
+			adcCount=0
+			for i in range(0,64,8):
+				c = ord(ser.read(1))
+				adcCount+=(c<<i)
+
+			# read 32-bit sample count
+			adcSamples=0
+			for i in range(0,32,8):
+				c = ord(ser.read(1))
+				adcSamples+=(c<<i)
+
+			# read 16-bit addr
+			addr=0
+			for i in range(0,16,8):
+				c = ord(ser.read(1))
+				addr+=(c<<i)
+
+			# read 16-bit target
+			target=0
+			for i in range(0,16,8):
+				c = ord(ser.read(1))
+				target+=(c<<i)
+
+
+			# read 16-bit event type
+			eventType = 0
+			for i in range(0,16,8):
+				c = ord(ser.read(1))
+				eventType+=(c<<i)
+
+			eventTypeStr="NA:  "
+			if eventType == 0:
+				eventTypeStr = "call:"
+			elif eventType == 1:
+				eventTypeStr = "int: "
+			elif eventType == 2:
+				eventTypeStr = "ret: "
+			elif eventType == 3:
+				eventTypeStr = "nop: "
+
+			if (lastUsTime != 0):
+				deltaUsTime = usTime - lastUsTime
+				deltaAdcCount = adcCount - lastAdcCount
+				deltaAdcSamples = adcSamples - lastAdcSamples
+
+				# power in mW
+				if (deltaAdcSamples > 0):
+					power = deltaAdcCount / float(deltaAdcSamples) / ADC_COUNT_PER_V / MOTE_SENSE_RESIST * MOTE_VIN * 1000
+				else:
+					power = 0
+				print "%s 0x%04x, 0x%04x, %fs, %fmJ, %fmw" % (eventTypeStr, addr, target, usTime/1000000.0, deltaUsTime/1000000.0*power, power)
+			else:
+				print "%s 0x%04x, 0x%04x, %fs, %fmJ, %fmw" % (eventTypeStr, addr, target, usTime/1000000.0, 0, 0)
+
+			lastUsTime = usTime
+			lastAdcCount = adcCount
+			lastAdcSamples = adcSamples
+		if (type == 3):
+			# read 16-bit address
+			address=0
+			for i in range(0,16,8):
+				c = ord(ser.read(1))
+				address+=(c<<i)
+
+			# read 64-bit timestamp
+			usTime=0
+			for i in range(0,64,8):
+				c = ord(ser.read(1))
+				usTime+=(c<<i)
+
+			if (lastUsTime != 0 and usTime > 0 and usTime < 1000000000):
+				deltaUsTime = usTime - lastUsTime
+
+				if (deltaUsTime < 0):
+					#print "deltaUsTime error", deltaUsTime
+					# correct rollover
+					deltaUsTime += 1000
+
+				if (profile.has_key(lastAddress)):
+					profile[lastAddress][0]+=deltaUsTime
+					profile[lastAddress][1]+=1
+				else:
+					profile[lastAddress]=[deltaUsTime,1]
+
+			if (usTime > 0 and usTime < 1000000000):
+				lastUsTime = usTime
+				lastAddress = address
+				print hex(address), usTime
+
+			funcCount += 1
+			if (startTime == 0):
+				startTime = time.time()
+			elif (time.time() - startTime > 30):
+				print "funcCount=",funcCount
+				break
+
+	elif (start == ord('\n')):
+		print ", %f" % (lastUsTime/1000000.0)
+	elif (start > 31):
+		sys.stdout.write(chr(start))
+
+	if (lastAddress == 0x6090):
+		startCount += 1
+		if (startCount == 6):
+			break
+	elif (lastAddress == 0x4236):
+		startCount += 1
+		if (startCount == 3):
+			break
+	#readCount += 1
+	#if (readCount == 5000):
+	#	ser.write("\d\n")
+	#	break
+
+	#if lastUsTime > 300000000: # 5 min
+	#	ser.write("\d\n")
+	#	break
+ser.close()
+
+#print "****** function profile *****"
+#for func in profile.keys():
+#	print hex(func),",",profile[func][0],",",profile[func][1]

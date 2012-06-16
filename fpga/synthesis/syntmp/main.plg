@@ -1,0 +1,33 @@
+@P:  Worst Slack : -2.135
+@P:  jtag_pc_poll|poll_done_inferred_clock - Estimated Frequency : 97.3 MHz
+@P:  jtag_pc_poll|poll_done_inferred_clock - Requested Frequency : 96.0 MHz
+@P:  jtag_pc_poll|poll_done_inferred_clock - Estimated Period : 10.276
+@P:  jtag_pc_poll|poll_done_inferred_clock - Requested Period : 10.417
+@P:  jtag_pc_poll|poll_done_inferred_clock - Slack : 0.141
+@P:  main|u0.u0.mcu_osc_inferred_clock - Estimated Frequency : 334.2 MHz
+@P:  main|u0.u0.mcu_osc_inferred_clock - Requested Frequency : 96.0 MHz
+@P:  main|u0.u0.mcu_osc_inferred_clock - Estimated Period : 2.992
+@P:  main|u0.u0.mcu_osc_inferred_clock - Requested Period : 10.417
+@P:  main|u0.u0.mcu_osc_inferred_clock - Slack : 7.425
+@P:  main|u0.u0.osc6m_inferred_clock - Estimated Frequency : 79.7 MHz
+@P:  main|u0.u0.osc6m_inferred_clock - Requested Frequency : 96.0 MHz
+@P:  main|u0.u0.osc6m_inferred_clock - Estimated Period : 12.552
+@P:  main|u0.u0.osc6m_inferred_clock - Requested Period : 10.417
+@P:  main|u0.u0.osc6m_inferred_clock - Slack : -2.135
+@P:  main|u0.u0.osc96m_inferred_clock - Estimated Frequency : 88.3 MHz
+@P:  main|u0.u0.osc96m_inferred_clock - Requested Frequency : 96.0 MHz
+@P:  main|u0.u0.osc96m_inferred_clock - Estimated Period : 11.330
+@P:  main|u0.u0.osc96m_inferred_clock - Requested Period : 10.417
+@P:  main|u0.u0.osc96m_inferred_clock - Slack : -0.913
+@P:  Total Area : 362.0
+@P:  Total Area : 321.0
+@P:  Total Area : 72.0
+@P:  Total Area : 62.0
+@P:  Total Area : 62.0
+@P:  Total Area : 181.0
+@P:  Total Area : 154.0
+@P:  Total Area : 38.0
+@P:  Total Area : 2.0
+@P:  Total Area : 0.0
+@P:  Total Area : 362.0
+@P:  CPU Time : 0h:00m:01s

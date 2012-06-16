@@ -1,0 +1,196 @@
+#Build: Synplify Pro D-2009.12A, Build 040R, Jan 20 2010
+#install: C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A
+#OS: Windows XP 5.1
+#Hostname: MATTHEWTANC0DD1
+
+#Implementation: synthesis
+
+#Sun Nov 14 11:23:29 2010
+
+$ Start of Compile
+#Sun Nov 14 11:23:29 2010
+
+Synopsys Verilog Compiler, version comp475rc, Build 060R, built Jan 15 2010
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+
+@I::"C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A\lib\proasic\igloo.v"
+@I::"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v"
+Verilog syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+Selecting top level module io_controller
+@N: CG364 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":2:7:2:19|Synthesizing module io_controller
+
+@A: CL106 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Register io_saved with async load is being synthesized in compatability mode. A Synthesis/Simulation mismatch is possible.
+@A: CL106 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Register mode with async load is being synthesized in compatability mode. A Synthesis/Simulation mismatch is possible.
+@A: CL106 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Register mode_reset with async load is being synthesized in compatability mode. A Synthesis/Simulation mismatch is possible.
+@A: CL106 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Register next_state with async load is being synthesized in compatability mode. A Synthesis/Simulation mismatch is possible.
+@A: CL106 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Register saved_tck with async load is being synthesized in compatability mode. A Synthesis/Simulation mismatch is possible.
+@A: CL106 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Register saved_tdi with async load is being synthesized in compatability mode. A Synthesis/Simulation mismatch is possible.
+@A: CL106 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Register saved_tms with async load is being synthesized in compatability mode. A Synthesis/Simulation mismatch is possible.
+@W: CL113 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Feedback mux created for signal mode[1:1].
+@W: CL118 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Latch generated from always block for signal mode[1], probably caused by a missing assignment in an if or case stmt
+@W: CL113 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Feedback mux created for signal NoName.
+@W: CL113 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Feedback mux created for signal NoName.
+@W: CL113 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Feedback mux created for signal NoName.
+@W: CL113 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Feedback mux created for signal mode[0:0].
+@W: CL118 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Latch generated from always block for signal mode[0], probably caused by a missing assignment in an if or case stmt
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Nov 14 11:23:29 2010
+
+###########################################################]
+Synopsys Actel Technology Mapper, Version map500act, Build 058R, Built Jan 18 2010 09:16:23
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version D-2009.12A
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Finished RTL optimizations (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+
+Finished factoring (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+
+Finished preparing to map (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+
+@N: FP130 |Promoting Net clk_c on CLKBUF  clk_pad 
+Finished technology mapping (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+Finished restoring hierarchy (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+
+Writing Analyst data base C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\synthesis\io_controller.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+
+Writing EDIF Netlist and constraint files
+D-2009.12A
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+
+@W: MT420 |Found inferred clock io_controller|clk with period 10.42ns. A user-defined clock should be declared on object "p:clk"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sun Nov 14 11:23:32 2010
+#
+
+
+Top view:               io_controller
+Library name:           IGLOO
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.85, tree_type = balanced_tree )
+Requested Frequency:    96.0 MHz
+Wire load mode:         top
+Wire load model:        IGLOO
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: NA
+
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: AGLN125V5Z_VQFP100_Std
+Report for cell io_controller.verilog
+  Core Cell usage:
+              cell count     area count*area
+              AO1C     3      1.0        3.0
+             AOI1B     5      1.0        5.0
+               GND     1      0.0        0.0
+               INV     1      1.0        1.0
+               MX2    16      1.0       16.0
+              MX2C     4      1.0        4.0
+             NOR2A     6      1.0        6.0
+             NOR2B     7      1.0        7.0
+             NOR3A     1      1.0        1.0
+             NOR3C     2      1.0        2.0
+              OA1A     1      1.0        1.0
+              OR2A     2      1.0        2.0
+              OR2B     5      1.0        5.0
+              OR3B     1      1.0        1.0
+              OR3C     1      1.0        1.0
+               VCC     1      0.0        0.0
+               XA1     1      1.0        1.0
+              XA1A     1      1.0        1.0
+
+
+          DFN1P1C1     4      1.0        4.0
+          DLN1P1C1     5      2.0       10.0
+                   -----          ----------
+             TOTAL    68                71.0
+
+
+  IO Cell usage:
+              cell count
+             BIBUF     4
+            CLKBUF     1
+             INBUF    39
+            OUTBUF     5
+           TRIBUFF    12
+                   -----
+             TOTAL    61
+
+
+Core Cells         : 71 of 3072 (2%)
+IO Cells           : 61 of 133 (46%)
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+
+Mapper successful!
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Nov 14 11:23:32 2010
+
+###########################################################]

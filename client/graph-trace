@@ -1,0 +1,55 @@
+#!/usr/bin/python
+
+# graph-trace
+# Purpose: Creates a visualization of the trace.
+# Author(s): Matthew Tan Creti
+#
+# Copyright 2011 Purdue University
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+import sys
+import getopt
+import traceviz
+
+def main(argv):
+	traceFileName = ""
+	mapFileName = ""
+	startTime = None
+	endTime = None
+
+	try:
+		opts, args = getopt.getopt(argv, "t:m:s:e:", ["trace=", "map=", "start=", "end="])
+	except getopt.GetoptError:
+		usage()
+		sys.exit(2)
+	for opt, arg in opts:
+		if opt in ("-t", "--trace"):
+			traceFileName = arg
+		elif opt in ("-m", "--map"):
+			mapFileName = arg
+		elif opt in ("-s", "--start"):
+			startTime = float(arg)
+		elif opt in ("-e", "--end"):
+			endTime = float(arg)
+		else:
+			assert False, "unhandled option"
+
+	traceParser = traceviz.TraceParser(traceFileName, mapFileName)
+	powerDataSet = traceParser.getPowerDataSet()
+	traceDataSet = traceParser.getTraceDataSet()
+	window = traceviz.Window(powerDataSet, traceDataSet, startTime, endTime)
+	window.show()
+
+if __name__ == "__main__":
+	main(sys.argv[1:])

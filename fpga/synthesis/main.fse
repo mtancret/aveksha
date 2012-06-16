@@ -1,0 +1,54 @@
+
+fsm_encoding {1530533} original
+
+fsm_state_encoding {1530533} 00 {00}
+
+fsm_state_encoding {1530533} 01 {01}
+
+fsm_state_encoding {1530533} 10 {10}
+
+fsm_state_encoding {1530533} 11 {11}
+
+fsm_registers {1530533} {next_state[1]}  {next_state[0]} 
+
+fsm_encoding {5470471} sequential
+
+fsm_state_encoding {5470471} 000 {00}
+
+fsm_state_encoding {5470471} 001 {01}
+
+fsm_state_encoding {5470471} 010 {10}
+
+fsm_state_encoding {5470471} 011 {11}
+
+fsm_registers {5470471} {next_state[1]}  {next_state[0]} 
+
+fsm_encoding {4990992} onehot
+
+fsm_state_encoding {4990992} 00000 {0000000000001}
+
+fsm_state_encoding {4990992} 00001 {0000000000010}
+
+fsm_state_encoding {4990992} 00010 {0000000000100}
+
+fsm_state_encoding {4990992} 00011 {0000000001000}
+
+fsm_state_encoding {4990992} 00100 {0000000010000}
+
+fsm_state_encoding {4990992} 00101 {0000000100000}
+
+fsm_state_encoding {4990992} 00110 {0000001000000}
+
+fsm_state_encoding {4990992} 00111 {0000010000000}
+
+fsm_state_encoding {4990992} 01000 {0000100000000}
+
+fsm_state_encoding {4990992} 01001 {0001000000000}
+
+fsm_state_encoding {4990992} 01010 {0010000000000}
+
+fsm_state_encoding {4990992} 01011 {0100000000000}
+
+fsm_state_encoding {4990992} 01100 {1000000000000}
+
+fsm_registers {4990992} {next_state[12]}  {next_state[11]}  {next_state[10]}  {next_state[9]}  {next_state[8]}  {next_state[7]}  {next_state[6]}  {next_state[5]}  {next_state[4]}  {next_state[3]}  {next_state[2]}  {next_state[1]}  {next_state[0]} 

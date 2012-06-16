@@ -1,0 +1,9 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\designer\impl1\io_controller.adb"
+LIST SOURCE_FILES
+VALUE "C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\synthesis\io_controller_sdc.sdc;sdc"
+ENDLIST
+LIST OPTIONAL_FILES
+ENDLIST
+LIST VCD_FILES
+ENDLIST

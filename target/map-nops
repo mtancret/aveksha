@@ -1,0 +1,45 @@
+#!/usr/bin/python
+
+# map-nops
+# Purpose: Collect the names of nop instrumented instructions.
+# Author(s): Matthew Tan Creti
+#
+# Copyright 2011 Purdue University
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+asmfile = file("main.dis", "r")
+namesfile = file("nop-names.txt", "r")
+outfile = file("nop-map.txt", "w")
+
+names = namesfile.readlines()
+for line in asmfile.readlines():
+	#    5c7c:       a2 42 62 13     mov     #4,     &0x1362 ;r2 As==10
+	if line.find("mov	#") != -1:
+		try:
+			nopMark = int(line.split()[6][1:-1])
+		except ValueError:
+			""" """
+	elif line.find(".word") != -1:
+		nopMark = 0
+
+	#    5440:       04 44           mov     r4,     r4      ;
+	if line.find("mov	r4,	r4") != -1:
+		address = line.split()[0][:-1]
+		outfile.write(address)
+		outfile.write(" ")
+		outfile.write(names[nopMark].replace(":", " "))
+	
+asmfile.close()
+namesfile.close()
+outfile.close()

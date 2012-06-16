@@ -1,0 +1,243 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Documents and Settings\Administrator\My Documents\actel\TDB\simulation
+vclock_manager
+ITH0mDg3=_m33T6PdIhF3X3
+VnFCd^M7_b4>GfCNcYFUe13
+Z1 dC:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\simulation
+w1289925791
+8C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/clock_manager.v
+FC:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/clock_manager.v
+L0 3
+Z2 OW;L;6.5d;42
+r1
+31
+Z3 o-work presynth -O0
+!s100 >OMCSS20HD_^Yalin10M^0
+!s85 0
+!s101 -O0
+vclocks
+IN85?KY1J@764n_EmSBZ0Z1
+VG@j1bIo;M7>?3S:[VF0DT1
+R1
+w1289497028
+8C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/smartgen/clocks/clocks.v
+FC:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/smartgen/clocks/clocks.v
+L0 5
+R2
+r1
+31
+R3
+!s100 3aTCDY`V>off]KgneKP2>3
+!s85 0
+!s101 -O0
+vfunction_search
+IJ`CIWJgLMn^iKjF`gjNUk1
+VBn:Bo7ES_][LBkkjNeMdM0
+R1
+w1289931550
+8C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/function_search.v
+FC:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/function_search.v
+L0 27
+R2
+r1
+31
+R3
+!s100 g;5;?`:2`84djK3WgJK][3
+!s85 0
+!s101 -O0
+vio_controller
+IF<N@J9fBfZb[k7bS<8eMJ0
+VoPKDCVOPHV=Laz;aIh=i?3
+R1
+w1289925792
+8C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/io_controller.v
+FC:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/io_controller.v
+L0 2
+R2
+r1
+31
+R3
+!s100 1=f_;Aaz?=4fDF4aMKh=13
+!s85 0
+!s101 -O0
+vjtag_controller
+I@nlJ[E@kOWD3Beke4=G613
+VSTAd1aW0oG??Wb;G7OU_F0
+R1
+w1289929661
+8C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/jtag_controller.v
+FC:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/jtag_controller.v
+L0 2
+R2
+r1
+31
+R3
+!s100 kSk>MPd[Xadg@G<1zAge@3
+!s85 0
+!s101 -O0
+vjtag_pc_poll
+IDiYXJK[n:SG0oc2gb?DgX1
+V7_GWU1h=<@RKX@e=B_Sa_0
+R1
+w1289833512
+8C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/jtag_pc_poll.v
+FC:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/jtag_pc_poll.v
+L0 1
+R2
+r1
+31
+R3
+!s100 J^=KbfS0C:4Nz<ImnoO6R0
+!s85 0
+!s101 -O0
+vjtag_shift
+I=iOQzDnlmm2k>cXDWSTLO0
+V=]m26PihJWlF@JLbPnf=J1
+R1
+w1289755621
+8C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/jtag_shift.v
+FC:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/jtag_shift.v
+L0 59
+R2
+r1
+31
+R3
+!s100 W=ebciB?RWjX3C:VeBLKW0
+!s85 0
+!s101 -O0
+vmain
+!s100 iG;[nYg4m]N4?5J6k>n4c0
+IbRKZ;YPmAN77YdAdnXBP70
+V<D_EXmSSWN7m<4dCn]5G32
+R1
+w1289932011
+8C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/main.v
+FC:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/main.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s101 -O0
+R3
+vmem_manager
+IeS]204f6Wgb5Y[4RDi?zi1
+VR?9oA2k<dRRId^1dL3iPA2
+R1
+w1289930259
+8C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/mem_manager.v
+FC:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/mem_manager.v
+L0 2
+R2
+r1
+31
+R3
+!s100 >Vl3bNGIdFF]MKgehW>6;0
+!s85 0
+!s101 -O0
+vmode_selector
+I_Ub7:JZlYcg[d]_lZEmeW0
+Vh4MO3I>?gf=2<b:QbT<Ea1
+R1
+w1289759443
+8C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/mode_selector.v
+FC:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/mode_selector.v
+L0 2
+R2
+r1
+31
+R3
+!s100 6;[8I3_AJ0UT]G_CB4FSF0
+!s85 0
+!s101 -O0
+vnew_new_jtag_shift
+I^VKAjeR_;:dU0<gV0i;_>3
+VnU:0iMMES442X6`SE^:1E2
+w1288181544
+8C:/Documents and Settings/Administrator/My Documents/actel/TDB/hdl/new_new_jtag_shift.v
+FC:/Documents and Settings/Administrator/My Documents/actel/TDB/hdl/new_new_jtag_shift.v
+L0 58
+R2
+r1
+31
+R3
+!s100 772TlhZ@EYSeKUM2VmDe?0
+!s85 0
+!s101 -O0
+voutput_buffer
+I`G6ICQ0ndWE2MNCd^`gTh3
+VTd4T2M;zg@`BD78Y4IV_M1
+R1
+w1289931549
+8C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/output_buffer.v
+FC:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/output_buffer.v
+L0 2
+R2
+r1
+31
+R3
+!s100 G<9D7mAdUmlTX<C@Q3jYB0
+!s85 0
+!s101 -O0
+voutput_buffer_mem
+I2`H`GWAPcN98A]ES0IKzm2
+VSV_l3=]IYPU>>QKFbVbcT0
+R1
+w1289793307
+8C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/smartgen/output_buffer_mem/output_buffer_mem.v
+FC:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/smartgen/output_buffer_mem/output_buffer_mem.v
+L0 5
+R2
+r1
+31
+R3
+!s100 ?M8T;`aK7=PURJlgKgZVE3
+!s85 0
+!s101 -O0
+vprogram_table
+IDj?DVem]4YjP[=@42IRo40
+V=DFnkPk8>JiRbDkRYECD80
+w1287513078
+8C:/Documents and Settings/Administrator/My Documents/actel/TDB/hdl/program_table.v
+FC:/Documents and Settings/Administrator/My Documents/actel/TDB/hdl/program_table.v
+L0 2
+R2
+r1
+31
+R3
+!s100 BnUzW<Pj@W?TPH]eEaYUL2
+!s85 0
+!s101 -O0
+vprogram_table_loader
+I6QT=HJ`8X[aAe<1=zD_?>1
+VkY?P`]_hGS7l;XQC_hOU01
+R1
+w1289793342
+8C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/program_table_loader.v
+FC:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/program_table_loader.v
+L0 2
+R2
+r1
+31
+R3
+!s100 SETQG36zgbG>O^n>2Kge72
+!s85 0
+!s101 -O0
+vprogram_table_mem
+IXURjJ]b9EW<2nc_fSo[2h3
+V9a3<OknRgTLPodP8JYQaH0
+R1
+w1288127013
+8C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/smartgen/program_table_mem/program_table_mem.v
+FC:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/smartgen/program_table_mem/program_table_mem.v
+L0 5
+R2
+r1
+31
+R3
+!s100 n7V0g3?<E@Q73c9bQaW[O1
+!s85 0
+!s101 -O0

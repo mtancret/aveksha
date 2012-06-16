@@ -1,0 +1,16 @@
+FlashPro
+Version: 9.0.0.15
+Release: v9.0
+
+This program can detect if an updated version of the software is available by
+ checking the Actel web-site.
+
+Would you like to have this check automatically done when you startup the program?
+
+(To change this setting later, go to the File menu and select Preferences.
+From the Updates tab, you can change your selection.) [NO]
+Software Version: 9.0.0.15
+Created new project 'C:\Documents and Settings\Administrator\My
+Documents\actel\TDB\designer\impl1\TDB\TDB.pro'
+Rescanning for Programmers...
+Rescanning for Programmers DONE.

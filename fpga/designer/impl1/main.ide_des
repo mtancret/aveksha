@@ -1,0 +1,20 @@
+KEY IDE_DES_TOOL "Designer"
+KEY IDE_DES_FAMILY "IGLOO"
+KEY IDE_DES_DIE "UM4X2M1LP"
+KEY IDE_DES_PACKAGE "vq100"
+KEY IDE_DES_TOP_CELL_NAME "main"
+KEY IDE_DES_KEEP_PHY_CONSTR "TRUE"
+KEY IDE_DES_KEEP_TIME_CONSTR "TRUE"
+KEY IDE_DES_LAYOUT_DONE "TRUE"
+KEY IDE_DES_BA_EXPORTED "FALSE"
+KEY IDE_DES_ERROR_FOUND "FALSE"
+KEY IDE_DES_ADB_PATH "C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\designer\impl1\main.adb"
+LIST SOURCE_FILES
+VALUE "C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\synthesis\main.edn;edn"
+VALUE "C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\synthesis\main_sdc.sdc;sdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\synthesis\main_sdc.sdc;Used"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

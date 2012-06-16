@@ -1,0 +1,822 @@
+Timing Violation Report Min Delay Analysis
+
+SmartTime Version v9.0
+Actel Corporation - Actel Designer Software Release v9.0 (Version 9.0.0.15)
+Copyright (c) 1989-2010
+Date: Tue Oct 26 23:50:07 2010
+
+
+Design: main
+Family: IGLOO
+Die: AGLN125V5Z
+Package: 100 VQFP
+Temperature: COM
+Voltage: COM
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Advanced
+Min Operating Condition: BEST
+Max Operating Condition: WORST
+Scenario for Timing Analysis: Primary
+
+
+Path 1
+  From:                        u1/u0/data_out[15]/U1:CLK
+  To:                          u1/data[15]:D
+  Delay (ns):                  0.784
+  Slack (ns):                  0.784
+  Arrival (ns):                5.433
+  Required (ns):               4.649
+
+Path 2
+  From:                        u1/jtag_reset_1:CLK
+  To:                          u1/u0/done:CLR
+  Delay (ns):                  0.793
+  Slack (ns):                  0.793
+  Arrival (ns):                5.460
+  Required (ns):               4.667
+
+Path 3
+  From:                        u1/u0/data_out[0]/U1:CLK
+  To:                          u1/data[0]:D
+  Delay (ns):                  0.783
+  Slack (ns):                  0.795
+  Arrival (ns):                5.407
+  Required (ns):               4.612
+
+Path 4
+  From:                        u1/u0/data_out[11]/U1:CLK
+  To:                          u1/data[11]:D
+  Delay (ns):                  0.849
+  Slack (ns):                  0.849
+  Arrival (ns):                5.498
+  Required (ns):               4.649
+
+Path 5
+  From:                        u1/u0/data_out[9]/U1:CLK
+  To:                          u1/data[9]:D
+  Delay (ns):                  0.849
+  Slack (ns):                  0.849
+  Arrival (ns):                5.498
+  Required (ns):               4.649
+
+Path 6
+  From:                        u1/u0/data_out[3]/U1:CLK
+  To:                          u1/data[3]:D
+  Delay (ns):                  0.849
+  Slack (ns):                  0.849
+  Arrival (ns):                5.473
+  Required (ns):               4.624
+
+Path 7
+  From:                        u1/u0/data_out[8]/U1:CLK
+  To:                          u1/data[8]:D
+  Delay (ns):                  0.843
+  Slack (ns):                  0.855
+  Arrival (ns):                5.467
+  Required (ns):               4.612
+
+Path 8
+  From:                        u1/jtag_reset:CLK
+  To:                          u1/u0/next_state[10]:CLR
+  Delay (ns):                  0.821
+  Slack (ns):                  0.882
+  Arrival (ns):                5.488
+  Required (ns):               4.606
+
+Path 9
+  From:                        u1/jtag_reset:CLK
+  To:                          u1/u0/next_state[8]:CLR
+  Delay (ns):                  0.821
+  Slack (ns):                  0.882
+  Arrival (ns):                5.488
+  Required (ns):               4.606
+
+Path 10
+  From:                        u1/u0/data_out[14]/U1:CLK
+  To:                          u1/data[14]:D
+  Delay (ns):                  1.060
+  Slack (ns):                  1.085
+  Arrival (ns):                5.709
+  Required (ns):               4.624
+
+Path 11
+  From:                        u0/osc48m_out:CLK
+  To:                          u0/osc48m_out:D
+  Delay (ns):                  1.229
+  Slack (ns):                  1.229
+  Arrival (ns):                5.825
+  Required (ns):               4.596
+
+Path 12
+  From:                        u1/u0/data_out[12]/U1:CLK
+  To:                          u1/data[12]:D
+  Delay (ns):                  1.213
+  Slack (ns):                  1.250
+  Arrival (ns):                5.862
+  Required (ns):               4.612
+
+Path 13
+  From:                        u1/next_state[0]:CLK
+  To:                          u1/next_state[1]:D
+  Delay (ns):                  1.312
+  Slack (ns):                  1.296
+  Arrival (ns):                5.918
+  Required (ns):               4.622
+
+Path 14
+  From:                        u1/next_state[1]:CLK
+  To:                          u1/next_state[1]:D
+  Delay (ns):                  1.306
+  Slack (ns):                  1.306
+  Arrival (ns):                5.928
+  Required (ns):               4.622
+
+Path 15
+  From:                        u1/poll_done:CLK
+  To:                          search_en:D
+  Delay (ns):                  1.334
+  Slack (ns):                  1.334
+  Arrival (ns):                6.001
+  Required (ns):               4.667
+
+Path 16
+  From:                        u1/u0/next_state[5]/U1:CLK
+  To:                          u1/u0/next_state[5]/U1:D
+  Delay (ns):                  1.347
+  Slack (ns):                  1.347
+  Arrival (ns):                5.956
+  Required (ns):               4.609
+
+Path 17
+  From:                        u1/jtag_reset_1:CLK
+  To:                          u1/u0/data_out[3]/U1:CLR
+  Delay (ns):                  1.329
+  Slack (ns):                  1.372
+  Arrival (ns):                5.996
+  Required (ns):               4.624
+
+Path 18
+  From:                        u1/jtag_enable_0:CLK
+  To:                          u1/u0/next_state[8]:D
+  Delay (ns):                  1.333
+  Slack (ns):                  1.394
+  Arrival (ns):                6.000
+  Required (ns):               4.606
+
+Path 19
+  From:                        u1/u0/next_state[0]:CLK
+  To:                          u1/u0/next_state[0]:D
+  Delay (ns):                  1.395
+  Slack (ns):                  1.395
+  Arrival (ns):                5.993
+  Required (ns):               4.598
+
+Path 20
+  From:                        u1/u0/next_state[6]/U1:CLK
+  To:                          u1/u0/bit_count[2]:D
+  Delay (ns):                  1.399
+  Slack (ns):                  1.399
+  Arrival (ns):                6.008
+  Required (ns):               4.609
+
+Path 21
+  From:                        u1/u0/data_in_reg[15]/U1:CLK
+  To:                          u1/u0/data_in_reg[15]/U1:D
+  Delay (ns):                  1.402
+  Slack (ns):                  1.402
+  Arrival (ns):                5.986
+  Required (ns):               4.584
+
+Path 22
+  From:                        u1/u0/data_in_reg[11]/U1:CLK
+  To:                          u1/u0/data_in_reg[11]/U1:D
+  Delay (ns):                  1.402
+  Slack (ns):                  1.402
+  Arrival (ns):                5.986
+  Required (ns):               4.584
+
+Path 23
+  From:                        u1/u0/data_out[14]/U1:CLK
+  To:                          u1/u0/data_out[14]/U1:D
+  Delay (ns):                  1.402
+  Slack (ns):                  1.402
+  Arrival (ns):                6.051
+  Required (ns):               4.649
+
+Path 24
+  From:                        u1/u0/data_out[6]/U1:CLK
+  To:                          u1/u0/data_out[6]/U1:D
+  Delay (ns):                  1.402
+  Slack (ns):                  1.402
+  Arrival (ns):                6.051
+  Required (ns):               4.649
+
+Path 25
+  From:                        u1/u0/data_out[4]/U1:CLK
+  To:                          u1/data[4]:D
+  Delay (ns):                  1.383
+  Slack (ns):                  1.403
+  Arrival (ns):                6.032
+  Required (ns):               4.629
+
+Path 26
+  From:                        u1/u0/data_in_reg[7]/U1:CLK
+  To:                          u1/u0/data_in_reg[7]/U1:D
+  Delay (ns):                  1.408
+  Slack (ns):                  1.408
+  Arrival (ns):                6.014
+  Required (ns):               4.606
+
+Path 27
+  From:                        u1/u0/tms:CLK
+  To:                          u1/u0/tms:D
+  Delay (ns):                  1.408
+  Slack (ns):                  1.408
+  Arrival (ns):                6.000
+  Required (ns):               4.592
+
+Path 28
+  From:                        u1/u0/tck/U1:CLK
+  To:                          u1/u0/tck/U1:D
+  Delay (ns):                  1.411
+  Slack (ns):                  1.411
+  Arrival (ns):                6.009
+  Required (ns):               4.598
+
+Path 29
+  From:                        u1/jtag_enable:CLK
+  To:                          u1/u0/done:D
+  Delay (ns):                  1.411
+  Slack (ns):                  1.411
+  Arrival (ns):                6.078
+  Required (ns):               4.667
+
+Path 30
+  From:                        u1/u0/data_out[6]/U1:CLK
+  To:                          u1/data[6]:D
+  Delay (ns):                  1.380
+  Slack (ns):                  1.417
+  Arrival (ns):                6.029
+  Required (ns):               4.612
+
+Path 31
+  From:                        u1/u0/next_state[2]:CLK
+  To:                          u1/u0/next_state[2]:D
+  Delay (ns):                  1.422
+  Slack (ns):                  1.422
+  Arrival (ns):                6.020
+  Required (ns):               4.598
+
+Path 32
+  From:                        u1/u0/bit_count[0]:CLK
+  To:                          u1/u0/bit_count[0]:D
+  Delay (ns):                  1.425
+  Slack (ns):                  1.425
+  Arrival (ns):                6.034
+  Required (ns):               4.609
+
+Path 33
+  From:                        u1/u0/data_out[13]/U1:CLK
+  To:                          u1/data[13]:D
+  Delay (ns):                  1.395
+  Slack (ns):                  1.432
+  Arrival (ns):                6.044
+  Required (ns):               4.612
+
+Path 34
+  From:                        u1/jtag_reset_0:CLK
+  To:                          u1/u0/data_in_reg[10]/U1:CLR
+  Delay (ns):                  1.372
+  Slack (ns):                  1.433
+  Arrival (ns):                6.039
+  Required (ns):               4.606
+
+Path 35
+  From:                        u1/jtag_reset_1:CLK
+  To:                          u1/u0/data_out[14]/U1:CLR
+  Delay (ns):                  1.430
+  Slack (ns):                  1.448
+  Arrival (ns):                6.097
+  Required (ns):               4.649
+
+Path 36
+  From:                        u1/u0/next_state[8]:CLK
+  To:                          u1/u0/next_state[8]:D
+  Delay (ns):                  1.450
+  Slack (ns):                  1.450
+  Arrival (ns):                6.056
+  Required (ns):               4.606
+
+Path 37
+  From:                        u1/u0/bit_count[2]:CLK
+  To:                          u1/u0/bit_count[2]:D
+  Delay (ns):                  1.453
+  Slack (ns):                  1.453
+  Arrival (ns):                6.062
+  Required (ns):               4.609
+
+Path 38
+  From:                        u1/u0/data_in_reg[10]/U1:CLK
+  To:                          u1/u0/data_in_reg[10]/U1:D
+  Delay (ns):                  1.466
+  Slack (ns):                  1.466
+  Arrival (ns):                6.072
+  Required (ns):               4.606
+
+Path 39
+  From:                        u1/u0/data_in_reg[3]/U1:CLK
+  To:                          u1/u0/data_in_reg[3]/U1:D
+  Delay (ns):                  1.468
+  Slack (ns):                  1.468
+  Arrival (ns):                6.074
+  Required (ns):               4.606
+
+Path 40
+  From:                        u1/u0/data_out[10]/U1:CLK
+  To:                          u1/u0/data_out[10]/U1:D
+  Delay (ns):                  1.468
+  Slack (ns):                  1.468
+  Arrival (ns):                6.117
+  Required (ns):               4.649
+
+Path 41
+  From:                        u1/u0/data_in_reg[6]/U1:CLK
+  To:                          u1/u0/data_in_reg[6]/U1:D
+  Delay (ns):                  1.468
+  Slack (ns):                  1.468
+  Arrival (ns):                6.074
+  Required (ns):               4.606
+
+Path 42
+  From:                        u1/u0/data_out[13]/U1:CLK
+  To:                          u1/u0/data_out[13]/U1:D
+  Delay (ns):                  1.468
+  Slack (ns):                  1.468
+  Arrival (ns):                6.117
+  Required (ns):               4.649
+
+Path 43
+  From:                        u1/u0/data_out[1]/U1:CLK
+  To:                          u1/u0/data_out[1]/U1:D
+  Delay (ns):                  1.470
+  Slack (ns):                  1.470
+  Arrival (ns):                6.094
+  Required (ns):               4.624
+
+Path 44
+  From:                        u1/u0/data_out[12]/U1:CLK
+  To:                          u1/u0/data_out[12]/U1:D
+  Delay (ns):                  1.470
+  Slack (ns):                  1.470
+  Arrival (ns):                6.119
+  Required (ns):               4.649
+
+Path 45
+  From:                        u1/u0/next_state[2]:CLK
+  To:                          u1/u0/next_state[3]/U1:D
+  Delay (ns):                  1.470
+  Slack (ns):                  1.470
+  Arrival (ns):                6.068
+  Required (ns):               4.598
+
+Path 46
+  From:                        u1/u0/data_in_reg[0]/U1:CLK
+  To:                          u1/u0/data_in_reg[0]/U1:D
+  Delay (ns):                  1.470
+  Slack (ns):                  1.470
+  Arrival (ns):                6.137
+  Required (ns):               4.667
+
+Path 47
+  From:                        u1/u0/data_out[5]/U1:CLK
+  To:                          u1/u0/data_out[5]/U1:D
+  Delay (ns):                  1.470
+  Slack (ns):                  1.470
+  Arrival (ns):                6.094
+  Required (ns):               4.624
+
+Path 48
+  From:                        u1/u0/data_out[2]/U1:CLK
+  To:                          u1/u0/data_out[2]/U1:D
+  Delay (ns):                  1.470
+  Slack (ns):                  1.470
+  Arrival (ns):                6.094
+  Required (ns):               4.624
+
+Path 49
+  From:                        u1/poll_done:CLK
+  To:                          search_reset_0:D
+  Delay (ns):                  1.480
+  Slack (ns):                  1.480
+  Arrival (ns):                6.147
+  Required (ns):               4.667
+
+Path 50
+  From:                        u1/poll_done:CLK
+  To:                          search_result_reg[10]:E
+  Delay (ns):                  1.440
+  Slack (ns):                  1.488
+  Arrival (ns):                6.107
+  Required (ns):               4.619
+
+Path 51
+  From:                        u1/poll_done:CLK
+  To:                          search_result_reg[8]:E
+  Delay (ns):                  1.440
+  Slack (ns):                  1.488
+  Arrival (ns):                6.107
+  Required (ns):               4.619
+
+Path 52
+  From:                        u1/u0/tdi/U1:CLK
+  To:                          u1/u0/tdi/U1:D
+  Delay (ns):                  1.490
+  Slack (ns):                  1.490
+  Arrival (ns):                6.088
+  Required (ns):               4.598
+
+Path 53
+  From:                        u1/u0/data_out[7]/U1:CLK
+  To:                          u1/data[7]:D
+  Delay (ns):                  1.435
+  Slack (ns):                  1.492
+  Arrival (ns):                6.084
+  Required (ns):               4.592
+
+Path 54
+  From:                        u1/u0/data_in_reg[2]/U1:CLK
+  To:                          u1/u0/data_in_reg[2]/U1:D
+  Delay (ns):                  1.498
+  Slack (ns):                  1.498
+  Arrival (ns):                6.104
+  Required (ns):               4.606
+
+Path 55
+  From:                        u1/u0/next_state[0]:CLK
+  To:                          u1/u0/next_state[1]/U1:D
+  Delay (ns):                  1.499
+  Slack (ns):                  1.499
+  Arrival (ns):                6.097
+  Required (ns):               4.598
+
+Path 56
+  From:                        u1/jtag_reset:CLK
+  To:                          u1/u0/next_state[12]:CLR
+  Delay (ns):                  1.425
+  Slack (ns):                  1.500
+  Arrival (ns):                6.092
+  Required (ns):               4.592
+
+Path 57
+  From:                        u1/u0/next_state[3]/U1:CLK
+  To:                          u1/u0/next_state[3]/U1:D
+  Delay (ns):                  1.501
+  Slack (ns):                  1.501
+  Arrival (ns):                6.099
+  Required (ns):               4.598
+
+Path 58
+  From:                        u1/jtag_reset:CLK
+  To:                          u1/u0/next_state[9]:CLR
+  Delay (ns):                  1.458
+  Slack (ns):                  1.503
+  Arrival (ns):                6.125
+  Required (ns):               4.622
+
+Path 59
+  From:                        u1/u0/next_state[1]/U1:CLK
+  To:                          u1/u0/next_state[1]/U1:D
+  Delay (ns):                  1.511
+  Slack (ns):                  1.511
+  Arrival (ns):                6.109
+  Required (ns):               4.598
+
+Path 60
+  From:                        u1/u0/next_state[12]:CLK
+  To:                          u1/u0/next_state[12]:D
+  Delay (ns):                  1.519
+  Slack (ns):                  1.519
+  Arrival (ns):                6.111
+  Required (ns):               4.592
+
+Path 61
+  From:                        u1/u0/done:CLK
+  To:                          u1/u0/done:D
+  Delay (ns):                  1.522
+  Slack (ns):                  1.522
+  Arrival (ns):                6.189
+  Required (ns):               4.667
+
+Path 62
+  From:                        u1/u0/bit_count[0]:CLK
+  To:                          u1/u0/bit_count[1]:D
+  Delay (ns):                  1.527
+  Slack (ns):                  1.527
+  Arrival (ns):                6.136
+  Required (ns):               4.609
+
+Path 63
+  From:                        u1/poll_done:CLK
+  To:                          search_reset:D
+  Delay (ns):                  1.480
+  Slack (ns):                  1.528
+  Arrival (ns):                6.147
+  Required (ns):               4.619
+
+Path 64
+  From:                        u1/jtag_reset_0:CLK
+  To:                          u1/u0/data_in_reg[9]/U1:CLR
+  Delay (ns):                  1.479
+  Slack (ns):                  1.534
+  Arrival (ns):                6.146
+  Required (ns):               4.612
+
+Path 65
+  From:                        u1/u0/data_in_reg[4]/U1:CLK
+  To:                          u1/u0/data_in_reg[4]/U1:D
+  Delay (ns):                  1.542
+  Slack (ns):                  1.542
+  Arrival (ns):                6.148
+  Required (ns):               4.606
+
+Path 66
+  From:                        u1/u0/data_out[4]/U1:CLK
+  To:                          u1/u0/data_out[4]/U1:D
+  Delay (ns):                  1.543
+  Slack (ns):                  1.543
+  Arrival (ns):                6.192
+  Required (ns):               4.649
+
+Path 67
+  From:                        u1/u0/data_in_reg[13]/U1:CLK
+  To:                          u1/u0/data_in_reg[13]/U1:D
+  Delay (ns):                  1.543
+  Slack (ns):                  1.543
+  Arrival (ns):                6.149
+  Required (ns):               4.606
+
+Path 68
+  From:                        u1/u0/data_out[7]/U1:CLK
+  To:                          u1/u0/data_out[7]/U1:D
+  Delay (ns):                  1.543
+  Slack (ns):                  1.543
+  Arrival (ns):                6.192
+  Required (ns):               4.649
+
+Path 69
+  From:                        u1/u0/data_out[15]/U1:CLK
+  To:                          u1/u0/data_out[15]/U1:D
+  Delay (ns):                  1.543
+  Slack (ns):                  1.543
+  Arrival (ns):                6.192
+  Required (ns):               4.649
+
+Path 70
+  From:                        u1/u0/data_in_reg[9]/U1:CLK
+  To:                          u1/u0/data_in_reg[9]/U1:D
+  Delay (ns):                  1.544
+  Slack (ns):                  1.544
+  Arrival (ns):                6.156
+  Required (ns):               4.612
+
+Path 71
+  From:                        u1/u0/data_in_reg[14]/U1:CLK
+  To:                          u1/u0/data_in_reg[14]/U1:D
+  Delay (ns):                  1.544
+  Slack (ns):                  1.544
+  Arrival (ns):                6.150
+  Required (ns):               4.606
+
+Path 72
+  From:                        u1/u0/data_in_reg[1]/U1:CLK
+  To:                          u1/u0/data_in_reg[1]/U1:D
+  Delay (ns):                  1.545
+  Slack (ns):                  1.545
+  Arrival (ns):                6.151
+  Required (ns):               4.606
+
+Path 73
+  From:                        u1/u0/data_in_reg[12]/U1:CLK
+  To:                          u1/u0/data_in_reg[12]/U1:D
+  Delay (ns):                  1.545
+  Slack (ns):                  1.545
+  Arrival (ns):                6.151
+  Required (ns):               4.606
+
+Path 74
+  From:                        u1/u0/data_in_reg[5]/U1:CLK
+  To:                          u1/u0/data_in_reg[5]/U1:D
+  Delay (ns):                  1.545
+  Slack (ns):                  1.545
+  Arrival (ns):                6.151
+  Required (ns):               4.606
+
+Path 75
+  From:                        u1/u0/data_out[0]/U1:CLK
+  To:                          u1/u0/data_out[0]/U1:D
+  Delay (ns):                  1.545
+  Slack (ns):                  1.545
+  Arrival (ns):                6.169
+  Required (ns):               4.624
+
+Path 76
+  From:                        u1/u0/data_in_reg[8]/U1:CLK
+  To:                          u1/u0/data_in_reg[8]/U1:D
+  Delay (ns):                  1.546
+  Slack (ns):                  1.546
+  Arrival (ns):                6.152
+  Required (ns):               4.606
+
+Path 77
+  From:                        next_state[1]:CLK
+  To:                          search_reset_0:D
+  Delay (ns):                  1.554
+  Slack (ns):                  1.554
+  Arrival (ns):                6.221
+  Required (ns):               4.667
+
+Path 78
+  From:                        u1/jtag_reset_1:CLK
+  To:                          u1/u0/data_out[5]/U1:CLR
+  Delay (ns):                  1.514
+  Slack (ns):                  1.557
+  Arrival (ns):                6.181
+  Required (ns):               4.624
+
+Path 79
+  From:                        u1/u0/done:CLK
+  To:                          u1/next_state[0]:D
+  Delay (ns):                  1.529
+  Slack (ns):                  1.590
+  Arrival (ns):                6.196
+  Required (ns):               4.606
+
+Path 80
+  From:                        next_state[1]:CLK
+  To:                          search_reset:D
+  Delay (ns):                  1.554
+  Slack (ns):                  1.602
+  Arrival (ns):                6.221
+  Required (ns):               4.619
+
+Path 81
+  From:                        u1/u0/next_state[9]:CLK
+  To:                          u1/u0/next_state[10]:D
+  Delay (ns):                  1.588
+  Slack (ns):                  1.604
+  Arrival (ns):                6.210
+  Required (ns):               4.606
+
+Path 82
+  From:                        u1/u0/data_out[8]/U1:CLK
+  To:                          u1/u0/data_out[8]/U1:D
+  Delay (ns):                  1.608
+  Slack (ns):                  1.608
+  Arrival (ns):                6.232
+  Required (ns):               4.624
+
+Path 83
+  From:                        u1/u0/bit_count[1]:CLK
+  To:                          u1/u0/bit_count[1]:D
+  Delay (ns):                  1.611
+  Slack (ns):                  1.611
+  Arrival (ns):                6.220
+  Required (ns):               4.609
+
+Path 84
+  From:                        u1/u0/data_out[9]/U1:CLK
+  To:                          u1/u0/data_out[9]/U1:D
+  Delay (ns):                  1.612
+  Slack (ns):                  1.612
+  Arrival (ns):                6.261
+  Required (ns):               4.649
+
+Path 85
+  From:                        u1/u0/data_out[3]/U1:CLK
+  To:                          u1/u0/data_out[3]/U1:D
+  Delay (ns):                  1.613
+  Slack (ns):                  1.613
+  Arrival (ns):                6.237
+  Required (ns):               4.624
+
+Path 86
+  From:                        u1/u0/data_out[11]/U1:CLK
+  To:                          u1/u0/data_out[11]/U1:D
+  Delay (ns):                  1.615
+  Slack (ns):                  1.615
+  Arrival (ns):                6.264
+  Required (ns):               4.649
+
+Path 87
+  From:                        u1/u0/next_state[12]:CLK
+  To:                          u1/u0/done:D
+  Delay (ns):                  1.694
+  Slack (ns):                  1.619
+  Arrival (ns):                6.286
+  Required (ns):               4.667
+
+Path 88
+  From:                        u1/jtag_reset_1:CLK
+  To:                          u1/u0/data_out[2]/U1:CLR
+  Delay (ns):                  1.595
+  Slack (ns):                  1.638
+  Arrival (ns):                6.262
+  Required (ns):               4.624
+
+Path 89
+  From:                        u1/u0/next_state[6]/U1:CLK
+  To:                          u1/u0/next_state[6]/U1:D
+  Delay (ns):                  1.653
+  Slack (ns):                  1.653
+  Arrival (ns):                6.262
+  Required (ns):               4.609
+
+Path 90
+  From:                        u1/poll_done:CLK
+  To:                          pc_poll_rx:E
+  Delay (ns):                  1.616
+  Slack (ns):                  1.664
+  Arrival (ns):                6.283
+  Required (ns):               4.619
+
+Path 91
+  From:                        next_state[0]:CLK
+  To:                          search_reset_0:D
+  Delay (ns):                  1.690
+  Slack (ns):                  1.690
+  Arrival (ns):                6.357
+  Required (ns):               4.667
+
+Path 92
+  From:                        u1/jtag_reset:CLK
+  To:                          u1/u0/tms:PRE
+  Delay (ns):                  1.621
+  Slack (ns):                  1.696
+  Arrival (ns):                6.288
+  Required (ns):               4.592
+
+Path 93
+  From:                        u1/u0/data_out[2]/U1:CLK
+  To:                          u1/data[2]:D
+  Delay (ns):                  1.690
+  Slack (ns):                  1.722
+  Arrival (ns):                6.314
+  Required (ns):               4.592
+
+Path 94
+  From:                        u1/jtag_reset_1:CLK
+  To:                          u1/u0/data_out[0]/U1:CLR
+  Delay (ns):                  1.681
+  Slack (ns):                  1.724
+  Arrival (ns):                6.348
+  Required (ns):               4.624
+
+Path 95
+  From:                        next_state[0]:CLK
+  To:                          search_reset:D
+  Delay (ns):                  1.690
+  Slack (ns):                  1.738
+  Arrival (ns):                6.357
+  Required (ns):               4.619
+
+Path 96
+  From:                        next_state[1]:CLK
+  To:                          next_state[0]:D
+  Delay (ns):                  1.739
+  Slack (ns):                  1.739
+  Arrival (ns):                6.406
+  Required (ns):               4.667
+
+Path 97
+  From:                        u1/jtag_reset_0:CLK
+  To:                          u1/u0/data_in_reg[13]/U1:CLR
+  Delay (ns):                  1.684
+  Slack (ns):                  1.745
+  Arrival (ns):                6.351
+  Required (ns):               4.606
+
+Path 98
+  From:                        u1/u0/next_state[6]/U1:CLK
+  To:                          u1/u0/bit_count[0]:D
+  Delay (ns):                  1.766
+  Slack (ns):                  1.766
+  Arrival (ns):                6.375
+  Required (ns):               4.609
+
+Path 99
+  From:                        next_state[1]:CLK
+  To:                          search_en:D
+  Delay (ns):                  1.772
+  Slack (ns):                  1.772
+  Arrival (ns):                6.439
+  Required (ns):               4.667
+
+Path 100
+  From:                        u1/jtag_reset_0:CLK
+  To:                          u1/u0/data_in_reg[5]/U1:CLR
+  Delay (ns):                  1.739
+  Slack (ns):                  1.800
+  Arrival (ns):                6.406
+  Required (ns):               4.606
+

@@ -1,0 +1,70 @@
+Note: redirecting TCL stdout to log file stdout.log
+Note: redirecting TCL stderr to log file stderr.log
+line 3873, col 57: Option set not found: vcs_actel_smart_fusion_lib.
+
+
+Starting:    C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A\bin\mbin\synplify.exe
+Install:     C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A
+Date:        Mon Feb 14 22:59:41 2011
+Version:     D-2009.12A
+
+
+Arguments:   -product synplify_pro main_syn.prj
+ProductType: synplify_pro
+
+License checkout: synplifypro_acteloem
+License: synplifypro_acteloem node-locked 
+
+
+
+"maxfan_hard3" is unrecognized option for current device
+
+Running synthesis on main_syn:synthesis
+
+log file: "C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\synthesis\main.srr"
+
+
+
+Running flow compile_flow ...
+
+
+Running HDL Compiler...
+Start Time:22:59:43
+
+
+Compiler Completed
+Return Code: 0
+Completion Time:22:59:44
+
+Launching mapper in pro mode
+
+
+Running property_annotator...
+Start Time:22:59:44
+
+
+property_annotator Completed
+Return Code: 0
+Completion Time:22:59:45
+
+Analysis Property Generator Complete
+
+
+Running flow synthesis ...
+
+Launching mapper in pro mode
+
+
+Running IGLOO Mapper...
+Start Time:22:59:45
+
+
+IGLOO Mapper Completed with warnings
+Return Code: 1
+Completion Time:22:59:48
+
+exit status=0
+
+
+License checkin: synplifypro_acteloem
+

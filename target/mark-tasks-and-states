@@ -1,0 +1,52 @@
+#!/usr/bin/python
+
+# mark-tasks-and-states
+# Purpose: Instrument every task and state with nop.
+# Author(s): Matthew Tan Creti
+#
+# Copyright 2011 Purdue University
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+infile = file("app.c", "r")
+outfile = file("app-nop-task.c", "w")
+
+inScheduler = False
+count = 0
+for line in infile.readlines():
+	words = line.split()
+	# CC2420ControlP__m_state = CC2420ControlP__S_VREG_STARTING;
+	if len(words) == 3 and words[0] == "CC2420ControlP__m_state" and words[1] == "=":
+		stateName = words[0]
+		stateValue = words[2][:-1]
+		outfile.write("__asm (\"mov R4, R4 " + stateName + ":" + stateValue + "\");\n")
+
+	if line.startswith("static void SchedulerBasicP__TaskBasic__runTask(uint8_t"):
+		inScheduler = True
+
+	if inScheduler:
+		if line[0] == "}":
+			inScheduler = False
+		elif line.endswith("runTask();\n"):# and count < 10:
+			# "       /*Msp430SpiNoDma0P.SpiP*/Msp430SpiNoDmaP__0__signalDone_task__runTask();" -->
+			# "Msp430SpiNoDmaP__0__signalDone_task"
+			taskName = line.strip().split("/")[-1].split()[0][:-12]
+			#if taskName.startswith("DefaultLpl") or taskName.startswith("PowerCycle"):
+			#if taskName != "PowerCycleP__startRadio":
+			outfile.write("__asm (\"mov R4, R4 " + taskName + "\");\n")
+
+			count += 1
+	outfile.write(line)
+
+infile.close()
+outfile.close()

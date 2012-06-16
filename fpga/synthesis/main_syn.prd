@@ -1,0 +1,13 @@
+#-- Synopsys, Inc.
+#-- Version D-2009.12A
+#-- Project file C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\synthesis\main_syn.prd
+#-- Written on Sun Nov 14 19:38:55 2010
+
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

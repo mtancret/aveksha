@@ -1,0 +1,306 @@
+Actel Designer Software
+Version: 9.0.0.15
+Release: v9.0
+
+
+ Netlist Reading Time = 0.0 seconds
+Imported the files:
+   C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\synthesis\main.edn
+   C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\synthesis\main_sdc.sdc
+
+The Import command succeeded ( 00:00:02 )
+Info: The design C:\Documents and Settings\Administrator\My
+      Documents\actel\TDB_FPGA\designer\impl1\main.adb was last modified by software version
+      9.0.0.15.
+Opened an existing Libero design C:\Documents and Settings\Administrator\My
+Documents\actel\TDB_FPGA\designer\impl1\main.adb.
+'BA_NAME' set to 'main_ba'
+'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
+'IDE_DESIGNERVIEW_COUNT' set to '1'
+'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
+'IDE_DESIGNERVIEW_REVNUM0' set to '1'
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'C:\Documents and Settings\Administrator\My
+Documents\actel\TDB_FPGA\designer'
+'IDE_DESIGNERVIEW_LASTREV' set to '1'
+
+The Execute Script command succeeded ( 00:00:00 )
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : IGLOO
+Device      : AGLN125V5Z
+Package     : 100 VQFP
+Source      : C:\Documents and Settings\Administrator\My
+Documents\actel\TDB_FPGA\synthesis\main.edn
+              C:\Documents and Settings\Administrator\My
+Documents\actel\TDB_FPGA\synthesis\main_sdc.sdc
+Format      : EDIF
+Topcell     : main
+Speed grade : STD
+Temp        : 0:25:70
+Voltage     : 1.58:1.50:1.42
+
+Keep Existing Physical Constraints : Yes
+Keep Existing Timing Constraints   : Yes
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : No
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+Warning: CMP201: Net pld_ctr4_c drives no load.
+Warning: CMP201: Net u0/u0/Core_LOCK drives no load.
+Warning: CMP201: Net u0/u0/Core_YB drives no load.
+Warning: CMP201: Net u0/u0/Core_YC drives no load.
+Warning: CMP201: Net u3/load_enable drives no load.
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   1
+  - Buffers:                1
+  - Inverters:              0
+  - Tieoff:                 0
+  - Logic combining:        7
+
+    Total macros optimized  9
+
+Warning: CMP503: Remapped 23 enable flip-flop(s) to a 2-tile implementation because the CLR/PRE
+         pin on the enable flip-flop is not being driven by a global net.
+
+There were 0 error(s) and 6 warning(s) in this design.
+=====================================================================
+
+Reading previous post-compile physical placement constraints.
+
+
+There were 0 error(s) and 0 warning(s).
+
+=====================================================================
+Compile report:
+===============
+
+    CORE                       Used:    383  Total:   3072   (12.47%)
+    IO (W/ clocks)             Used:     30  Total:     71   (42.25%)
+    GLOBAL (Chip+Quadrant)     Used:      6  Total:     18   (33.33%)
+    PLL                        Used:      1  Total:      1   (100.00%)
+    RAM/FIFO                   Used:      0  Total:      8   (0.00%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|-------------
+    Chip global     | 6      | 6  (100.00%)
+    Quadrant global | 0      | 12 (0.00%)
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 247          | 247
+    SEQ     | 130          | 136
+
+I/O Function:
+
+    Type                          | w/o register  | w/ register  | w/ DDR register
+    ------------------------------|---------------|--------------|----------------
+    Input I/O                     | 7             | 0            | 0
+    Output I/O                    | 20            | 0            | 0
+    Bidirectional I/O             | 3             | 0            | 0
+    Differential Input I/O Pairs  | 0             | 0            | 0
+    Differential Output I/O Pairs | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVCMOS15                        | 1.50v | N/A   | 7     | 20     | 3
+
+I/O Placement:
+
+    Locked  :  29 ( 96.67% )
+    Placed  :   1 (  3.33% )
+    UnPlaced:   0
+
+Warning: Only some I/Os are locked
+
+Net information report:
+=======================
+
+The following nets drive enable flip-flops that have been remapped to a 2-tile implementation:
+    EffCnt  Type          Name
+    --------------------------
+    21      SET/RESET_NET Net   : mode_reset
+                          Driver: u2/mode_reset
+    2       INT_NET       Net   : mode_reset_0
+                          Driver: u2/mode_reset_0
+
+The following nets have been assigned to a chip global resource:
+    Fanout  Type          Name
+    --------------------------
+    97      CLK_NET       Net   : osc96m
+                          Driver: u0/u0/Core
+                          Source: ESSENTIAL
+    53      SET/RESET_NET Net   : u3/u0/shift_reset
+                          Driver: u3/u0/shift_reset_RNIPRD7
+                          Source: NETLIST
+    18      CLK_NET       Net   : osc6m
+                          Driver: u0/u0/Core
+                          Source: ESSENTIAL
+    17      CLK_NET       Net   : u3/pc_poll_done
+                          Driver: u3/u0/poll_done_RNILJ46
+                          Source: NETLIST
+    2       INT_NET       Net   : mcu_osc
+                          Driver: u0/u0/Core
+                          Source: ESSENTIAL
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    24      INT_NET       Net   : u3/u0/u0/next_state[10]
+                          Driver: u3/u0/u0/next_state[10]
+    23      INT_NET       Net   : mode_reset_0
+                          Driver: u2/mode_reset_0
+    22      SET/RESET_NET Net   : mode_reset
+                          Driver: u2/mode_reset
+    18      INT_NET       Net   : u2.N_19
+                          Driver: u2/mode1_RNIHQ031
+    17      INT_NET       Net   : u3/u2/N_2_0
+                          Driver: u3/u2/output_data_RNI0EN22[1]
+    16      INT_NET       Net   : u3/u0/data_0_sqmuxa
+                          Driver: u3/u0/next_state_RNI0J4M[1]
+    16      INT_NET       Net   : u3/u0/u0/N_235_0
+                          Driver: u3/u0/u0/next_state_0_RNIQTF6[8]
+    16      INT_NET       Net   : u3/u0/u0/N_235
+                          Driver: u3/u0/u0/next_state_RNIRLFB[8]
+    16      INT_NET       Net   : u3/u1/u2/resulte
+                          Driver: u3/u1/u2/done_inferred_clock_RNIOB6R3
+    15      INT_NET       Net   : u3/pc_poll_enable_0
+                          Driver: u3/pc_poll_enable_0
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    24      INT_NET       Net   : u3/u0/u0/next_state[10]
+                          Driver: u3/u0/u0/next_state[10]
+    23      INT_NET       Net   : mode_reset_0
+                          Driver: u2/mode_reset_0
+    22      SET/RESET_NET Net   : mode_reset
+                          Driver: u2/mode_reset
+    18      INT_NET       Net   : u2.N_19
+                          Driver: u2/mode1_RNIHQ031
+    17      INT_NET       Net   : u3/u2/N_2_0
+                          Driver: u3/u2/output_data_RNI0EN22[1]
+    16      INT_NET       Net   : u3/u0/data_0_sqmuxa
+                          Driver: u3/u0/next_state_RNI0J4M[1]
+    16      INT_NET       Net   : u3/u0/u0/N_235_0
+                          Driver: u3/u0/u0/next_state_0_RNIQTF6[8]
+    16      INT_NET       Net   : u3/u0/u0/N_235
+                          Driver: u3/u0/u0/next_state_RNIRLFB[8]
+    16      INT_NET       Net   : u3/u1/u2/resulte
+                          Driver: u3/u1/u2/done_inferred_clock_RNIOB6R3
+    15      INT_NET       Net   : u3/pc_poll_enable_0
+                          Driver: u3/pc_poll_enable_0
+====================
+Flash*Freeze report:
+====================
+
+The design does not use the Flash*Freeze feature.
+
+====================
+
+
+SDC Import: Begin processing constraints...
+
+
+
+SDC Import: End processing constraints
+
+
+The Compile command succeeded ( 00:00:02 )
+Warning: The following files already exist:
+         
+         C:\Documents and Settings\Administrator\My
+         Documents\actel\TDB_FPGA\designer\impl1\main.pdb
+         
+         Do you want to replace the files? [YES]
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Mon Feb 14 23:00:51 2011
+
+Placer Finished: Mon Feb 14 23:00:55 2011
+Total Placer CPU Time:     00:00:04
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: main                            Started: Mon Feb 14 23:00:57 2011
+
+ 
+Iterative improvement...
+
+Timing-driven Router completed successfully.
+
+Design: main                            
+Finished: Mon Feb 14 23:01:07 2011
+Total CPU Time:     00:00:10            Total Elapsed Time: 00:00:10
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+TIMER: Max delay timing requirements have been met.
+TIMER: Min delay timing requirements have been met.
+
+The Layout command succeeded ( 00:00:20 )
+
+The Export-map command succeeded ( 00:00:09 )
+Warning: Overwriting the existing file: C:\Documents and Settings\Administrator\My
+         Documents\actel\TDB_FPGA\designer\impl1\main.pdb.
+Wrote to the file: C:\Documents and Settings\Administrator\My
+Documents\actel\TDB_FPGA\designer\impl1\main.pdb
+CHECKSUM: 6D8C
+
+The Generate programming file command succeeded ( 00:00:30 )
+Design saved to file C:\Documents and Settings\Administrator\My
+Documents\actel\TDB_FPGA\designer\impl1\main.adb.
+Design closed.
+

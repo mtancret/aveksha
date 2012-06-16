@@ -1,0 +1,42 @@
+README for aveksha
+================================================================================
+Description
+
+Aveksha is a hardware-software approach for non-intrusively tracing and profiling sensor network nodes. This repository contains code and associated files to construct and program an Aveksha node targeted to the TelosB mote. The dubug board is refered to as the TDB (Telos Debug Board).
+
+The Aveksha approach for debugging sensor networks was first presented in SenSys 2011.
+
+Matthew Tancreti, Mohammad Hossain, Saurabh Bagchi, and Vijay Raghunathan. "Aveksha: A Hardware-Software Approach for Non-intrusive Tracing and Profiling of Wireless Embedded Systems". In 9th ACM Conference on Embedded Networked Sensor Systems (SenSys), 14 pages, Seattle, Washington, November 1-4, 2011.
+
+Each subdirectory contains a README with further details.
+client - control and data collection of the TDB
+firmware - code for the microcontroller on the TDB
+fpga - verilog code for the FPGA on the TDB
+hardware - cad files for the PCB
+target - scripts used to instrument TinyOS that is used to program the target mote
+
+================================================================================
+Programming the TDB
+
+There are two chips that need to be programmed: the MCU and the FPGA. The MCU is programmed over USB, while the FPGA is programmed using Actels JTAG programmer. See the firmware and fpga directories for further details.
+
+================================================================================
+Instrumenting an Application 
+
+Applications do not need to be instrumented for some functionality (e.g. function profiling). For tracing arbitrary events applications can be instrumented with specific nop instructions. For example:
+
+__asm ("mov R4, R4 EventName");
+__asm ("mov R4, R4 StateName : StateValue");
+
+Compile the application using compile-app in the target directory.
+
+================================================================================
+Status
+
+This project is currently EXPERIMENTAL and the code is provided as is. Before attempting to construct a board contact mtancret@purdue.edu with detials of your inteded use case, to receive comments on limitations that may be relivent to your application.
+
+================================================================================
+License
+
+For licensing details, see individual file headers.
+Licensed under the Apache License, Version 2.0.

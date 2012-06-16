@@ -1,0 +1,25 @@
+#Build: Synplify Pro D-2009.12A, Build 040R, Jan 20 2010
+#install: C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A
+#OS: Windows XP 5.1
+#Hostname: MATTHEWTANC0DD1
+
+#Implementation: synthesis
+
+#Sun Nov 14 00:10:16 2010
+
+$ Start of Compile
+#Sun Nov 14 00:10:16 2010
+
+Synopsys Verilog Compiler, version comp475rc, Build 060R, built Jan 15 2010
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+
+@I::"C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A\lib\proasic\igloo.v"
+@I::"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v"
+@E: CS204 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":37:13:37:20|Signal plc_data is missing from port list
+@E: CS187 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":104:0:104:8|Expecting endmodule
+2 syntax errors
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Nov 14 00:10:16 2010
+
+###########################################################]

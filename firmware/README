@@ -1,0 +1,13 @@
+README for aveksha/firmware
+================================================================================
+
+Installation:
+> make
+> export TDB=/dev/ttyUSB0
+> make install
+
+Options:
+Polling method can be selected in makefile:
+defines+=-DTRACE_METHOD_WATCHPOINT
+defines+=-DTRACE_METHOD_BREAKPOINT
+defines+=-DTRACE_METHOD_PC_POLL

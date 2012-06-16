@@ -1,0 +1,41 @@
+#!/usr/bin/python
+
+# remove-nop-names
+# Purpose: Collect nop names in order of apperance in source code.
+# Author(s): Matthew Tan Creti
+#
+# Copyright 2011 Purdue University
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+infile = file("app-nop-task.c", "r")
+outfile = file("app-nop-task-clean.c", "w")
+
+outfile.write("volatile unsigned int nop_mark;\n")
+nop_mark = 0
+for line in infile.readlines():
+	# __asm ("mov R4, R4 TestNetworkLplC__uartEchoTask");	
+	if line.find("mov R4, R4") != -1:
+		outfile.write("nop_mark=")
+		outfile.write(str(nop_mark))
+		outfile.write("; __asm (\"mov R4, R4\"); nop_mark=")
+		outfile.write(str(nop_mark))
+		outfile.write(";\n")
+		if line.find("}") != -1:
+			outfile.write("}\n")
+		nop_mark+=1
+	else:
+		outfile.write(line)
+	
+infile.close()
+outfile.close()

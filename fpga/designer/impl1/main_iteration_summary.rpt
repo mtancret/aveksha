@@ -1,0 +1,12 @@
+#------------------------------------------------------------------------------------------------------------------------------------------
+# RUN NUMBER: 1   DATE: 23:50:04 26-Oct-2010
+# INVOKED AS:  C:/Actel/Libero_v9.0/Designer/scripts/extended_run_gui.tcl -n 5 -starting_seed_index 1 -timing_driven -compare_criteria frequency
+#------------------------------------------------------------------------------------------------------------------------------------------
+# Seed Index  Seed      Slowest Clock          Frequency  Report Analyzed                                Saved Design
+# ==========  ========  ===============  ===============  =============================================  ===================================
+         N/A         0  u0/osc48m_out:Q           39.180  main_timing_r1_initial.rpt                   
+           1         0  u0/osc48m_out:Q           39.180  main_timing_r1_s1.rpt                        
+           2  86662958  u0/osc48m_out:Q           40.120  main_timing_r1_s2.rpt                        
+           3   8988747  u0/osc48m_out:Q           40.156  main_timing_r1_s3.rpt                        
+           4  51071856  u0/osc48m_out:Q           38.710  main_timing_r1_s4.rpt                        
+           5  78381505  u0/osc48m_out:Q           37.428  main_timing_r1_s5.rpt                        

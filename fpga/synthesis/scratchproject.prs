@@ -1,0 +1,77 @@
+#-- Synopsys, Inc.
+#-- Version D-2009.12A
+#-- Project file C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\synthesis\scratchproject.prs
+#-- Written on Mon Feb 14 22:59:43 2011
+
+
+#project files
+add_file -verilog "C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/io_controller.v"
+add_file -verilog "C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/smartgen/clocks/clocks.v"
+add_file -verilog "C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/clock_manager.v"
+add_file -verilog "C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/jtag_shift.v"
+add_file -verilog "C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/jtag_pc_poll.v"
+add_file -verilog "C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/smartgen/program_table_mem/program_table_mem.v"
+add_file -verilog "C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/function_search.v"
+add_file -verilog "C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/program_table_loader.v"
+add_file -verilog "C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/mem_manager.v"
+add_file -verilog "C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/output_buffer.v"
+add_file -verilog "C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/jtag_controller.v"
+add_file -verilog "C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/hdl/main.v"
+
+
+#implementation: "synthesis"
+impl -add "C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\synthesis" -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+
+#device options
+set_option -technology IGLOO
+set_option -part AGLN125V5Z
+set_option -package VQFP100
+set_option -speed_grade Std
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+set_option -top_module "main"
+
+# mapper_options
+set_option -frequency 96.000000
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+# Actel 500K
+set_option -run_prop_extract 1
+set_option -maxfan 24
+set_option -maxfan_hard3 0
+set_option -disable_io_insertion 0
+set_option -retiming 0
+set_option -report_path 0
+set_option -opcond COMWC
+set_option -update_models_cp 0
+set_option -preserve_registers 0
+
+# Actel 500K
+set_option -globalthreshold 50
+
+# NFilter
+set_option -popfeed 0
+set_option -constprop 0
+set_option -createhierarchy 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/synthesis/main.edn"
+impl -active "synthesis"

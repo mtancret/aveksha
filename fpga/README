@@ -1,0 +1,6 @@
+aveksha/fpga
+================================================================================
+This directory is in the format of a Libero® System on Chip (SoC) project. The
+verilog code is in hdl.
+
+The FPGA is programmed using Actels JTAG programmer.

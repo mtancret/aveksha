@@ -1,0 +1,13 @@
+#-- Synopsys, Inc.
+#-- Version D-2009.12A
+#-- Project file C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\synthesis\io_controller_syn.prd
+#-- Written on Sun Nov 14 11:23:52 2010
+
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

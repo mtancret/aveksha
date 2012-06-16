@@ -1,0 +1,278 @@
+#Build: Synplify Pro D-2009.12A, Build 040R, Jan 20 2010
+#install: C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A
+#OS: Windows_NT
+
+#Hostname: MATTHEWTANC0DD1
+
+$ Start of Compile
+#Sun Nov 14 16:13:58 2010
+
+Synopsys Verilog Compiler, version comp475rc, Build 060R, built Jan 15 2010
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+
+@I::"C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A\lib\proasic\igloo.v"
+@I::"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\smartgen\clocks\clocks.v"
+@I::"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\clock_manager.v"
+@I::"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\mode_selector.v"
+@I::"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\jtag_shift.v"
+@I::"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\jtag_pc_poll.v"
+@I::"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\smartgen\program_table_mem\program_table_mem.v"
+@I::"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\function_search.v"
+@I::"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\program_table_loader.v"
+@I::"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\mem_manager.v"
+@I::"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\smartgen\output_buffer_mem\output_buffer_mem.v"
+@I::"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\output_buffer.v"
+@I::"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\jtag_controller.v"
+@I::"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v"
+@I::"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\main.v"
+Verilog syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+Selecting top level module main
+@N: CG364 :"C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A\lib\proasic\igloo.v":1864:7:1864:9|Synthesizing module VCC
+
+@N: CG364 :"C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A\lib\proasic\igloo.v":1163:7:1163:9|Synthesizing module GND
+
+@N: CG364 :"C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A\lib\proasic\igloo.v":2447:7:2447:9|Synthesizing module PLL
+
+@N: CG364 :"C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A\lib\proasic\igloo.v":276:7:276:12|Synthesizing module PLLINT
+
+@N: CG364 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\smartgen\clocks\clocks.v":5:7:5:12|Synthesizing module clocks
+
+@N: CG364 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\clock_manager.v":3:7:3:19|Synthesizing module clock_manager
+
+@N: CG364 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\mode_selector.v":2:7:2:19|Synthesizing module mode_selector
+
+@N: CG364 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":2:7:2:19|Synthesizing module io_controller
+
+@N: CG364 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\jtag_shift.v":59:7:59:16|Synthesizing module jtag_shift
+
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\jtag_shift.v":178:23:178:25|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\jtag_shift.v":217:23:217:25|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\jtag_shift.v":258:23:258:25|Removing redundant assignment
+@A: CL106 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\jtag_shift.v":99:0:99:5|Register data_in_reg with async load is being synthesized in compatability mode. A Synthesis/Simulation mismatch is possible.
+@A:"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\jtag_shift.v":99:0:99:5|Feedback mux created for signal bit_count[4:0]. Did you forget the set/reset assignment for this signal? Specifying a reset value will improve timing and area
+@N: CG364 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\jtag_pc_poll.v":1:7:1:18|Synthesizing module jtag_pc_poll
+
+@A:"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\jtag_pc_poll.v":47:0:47:5|Feedback mux created for signal data[15:0]. Did you forget the set/reset assignment for this signal? Specifying a reset value will improve timing and area
+@N: CG364 :"C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A\lib\proasic\igloo.v":1996:7:1996:12|Synthesizing module RAM4K9
+
+@N: CG364 :"C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A\lib\proasic\igloo.v":1283:7:1283:9|Synthesizing module INV
+
+@N: CG364 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\smartgen\program_table_mem\program_table_mem.v":5:7:5:23|Synthesizing module program_table_mem
+
+@N: CG364 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\program_table_loader.v":2:7:2:26|Synthesizing module program_table_loader
+
+@N: CG364 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\function_search.v":27:7:27:21|Synthesizing module function_search
+
+@A:"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\function_search.v":60:0:60:5|Feedback mux created for signal result[15:0]. Did you forget the set/reset assignment for this signal? Specifying a reset value will improve timing and area
+@N: CG364 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\mem_manager.v":2:7:2:17|Synthesizing module mem_manager
+
+@N: CG364 :"C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A\lib\proasic\igloo.v":929:7:929:12|Synthesizing module DFN1C0
+
+@N: CG364 :"C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A\lib\proasic\igloo.v":2:7:2:10|Synthesizing module AND2
+
+@N: CG364 :"C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A\lib\proasic\igloo.v":1929:7:1929:10|Synthesizing module XOR2
+
+@N: CG364 :"C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A\lib\proasic\igloo.v":977:7:977:14|Synthesizing module DFN1E1C0
+
+@N: CG364 :"C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A\lib\proasic\igloo.v":1953:7:1953:10|Synthesizing module BUFF
+
+@N: CG364 :"C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A\lib\proasic\igloo.v":86:7:86:9|Synthesizing module AO1
+
+@N: CG364 :"C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A\lib\proasic\igloo.v":1905:7:1905:11|Synthesizing module XNOR2
+
+@N: CG364 :"C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A\lib\proasic\igloo.v":20:7:20:10|Synthesizing module AND3
+
+@N: CG364 :"C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A\lib\proasic\igloo.v":2086:8:2086:16|Synthesizing module RAM512X18
+
+@N: CG364 :"C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A\lib\proasic\igloo.v":1911:7:1911:11|Synthesizing module XNOR3
+
+@N: CG364 :"C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A\lib\proasic\igloo.v":1935:7:1935:10|Synthesizing module XOR3
+
+@N: CG364 :"C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A\lib\proasic\igloo.v":1349:7:1349:11|Synthesizing module NAND2
+
+@N: CG364 :"C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A\lib\proasic\igloo.v":8:7:8:11|Synthesizing module AND2A
+
+@N: CG364 :"C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A\lib\proasic\igloo.v":1001:7:1001:12|Synthesizing module DFN1P0
+
+@N: CG364 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\smartgen\output_buffer_mem\output_buffer_mem.v":5:7:5:23|Synthesizing module output_buffer_mem
+
+@W: CL168 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\smartgen\output_buffer_mem\output_buffer_mem.v":342:9:342:15|Pruning instance AND2_21 - not in use ...
+
+@W: CL168 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\smartgen\output_buffer_mem\output_buffer_mem.v":335:9:335:15|Pruning instance XOR2_15 - not in use ...
+
+@W: CL168 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\smartgen\output_buffer_mem\output_buffer_mem.v":320:9:320:14|Pruning instance AND2_8 - not in use ...
+
+@W: CL168 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\smartgen\output_buffer_mem\output_buffer_mem.v":316:8:316:12|Pruning instance AO1_5 - not in use ...
+
+@W: CL168 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\smartgen\output_buffer_mem\output_buffer_mem.v":310:9:310:14|Pruning instance AND2_4 - not in use ...
+
+@W: CL168 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\smartgen\output_buffer_mem\output_buffer_mem.v":289:9:289:14|Pruning instance AND2_0 - not in use ...
+
+@W: CL168 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\smartgen\output_buffer_mem\output_buffer_mem.v":254:11:254:22|Pruning instance DFN1C0_DVLDX - not in use ...
+
+@W: CL168 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\smartgen\output_buffer_mem\output_buffer_mem.v":232:9:232:15|Pruning instance XOR2_25 - not in use ...
+
+@W: CL168 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\smartgen\output_buffer_mem\output_buffer_mem.v":206:9:206:15|Pruning instance AND2_13 - not in use ...
+
+@W: CL168 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\smartgen\output_buffer_mem\output_buffer_mem.v":125:9:125:14|Pruning instance XOR2_4 - not in use ...
+
+@W: CL168 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\smartgen\output_buffer_mem\output_buffer_mem.v":99:9:99:14|Pruning instance AND2_7 - not in use ...
+
+@W: CL168 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\smartgen\output_buffer_mem\output_buffer_mem.v":92:8:92:12|Pruning instance AO1_8 - not in use ...
+
+@W: CL168 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\smartgen\output_buffer_mem\output_buffer_mem.v":86:9:86:15|Pruning instance AND2_15 - not in use ...
+
+@W: CL168 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\smartgen\output_buffer_mem\output_buffer_mem.v":85:9:85:15|Pruning instance AND2_18 - not in use ...
+
+@W: CL168 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\smartgen\output_buffer_mem\output_buffer_mem.v":68:9:68:15|Pruning instance XOR2_23 - not in use ...
+
+@W: CL168 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\smartgen\output_buffer_mem\output_buffer_mem.v":59:9:59:15|Pruning instance AND2_11 - not in use ...
+
+@W: CL168 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\smartgen\output_buffer_mem\output_buffer_mem.v":58:9:58:15|Pruning instance AND2_20 - not in use ...
+
+@N: CG364 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\output_buffer.v":2:7:2:19|Synthesizing module output_buffer
+
+@W: CG296 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\output_buffer.v":40:9:40:17|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\output_buffer.v":42:9:42:13|Referenced variable reset is not in sensitivity list
+@W: CG290 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\output_buffer.v":42:17:42:22|Referenced variable enable is not in sensitivity list
+@W: CG290 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\output_buffer.v":42:27:42:30|Referenced variable full is not in sensitivity list
+@W: CG296 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\output_buffer.v":50:9:50:11|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\output_buffer.v":52:9:52:13|Referenced variable reset is not in sensitivity list
+@W: CG290 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\output_buffer.v":52:17:52:22|Referenced variable enable is not in sensitivity list
+@W: CG290 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\output_buffer.v":52:27:52:31|Referenced variable empty is not in sensitivity list
+@N: CG364 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\jtag_controller.v":2:7:2:21|Synthesizing module jtag_controller
+
+@N: CG364 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\main.v":2:7:2:10|Synthesizing module main
+
+@N: CL201 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\function_search.v":60:0:60:5|Trying to extract state machine for register next_state
+Extracted state machine for register next_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@N: CL201 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\jtag_pc_poll.v":47:0:47:5|Trying to extract state machine for register next_state
+Extracted state machine for register next_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\jtag_shift.v":99:0:99:5|Trying to extract state machine for register next_state
+Extracted state machine for register next_state
+State machine has 13 reachable states with original encodings of:
+   00000
+   00001
+   00010
+   00011
+   00100
+   00101
+   00110
+   00111
+   01000
+   01001
+   01010
+   01011
+   01100
+@N: CL201 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\hdl\io_controller.v":48:0:48:5|Trying to extract state machine for register next_state
+Extracted state machine for register next_state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Nov 14 16:13:59 2010
+
+###########################################################]
+Synopsys Actel Technology Mapper, Version map500act, Build 058R, Built Jan 18 2010 09:16:23
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version D-2009.12A
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+
+Automatic dissolve during optimization of view:work.main(verilog) of u1(mode_selector)
+Automatic dissolve at startup in view:work.clock_manager(verilog) of u0(clocks)
+Automatic dissolve at startup in view:work.mem_manager(verilog) of u0(program_table_mem)
+Automatic dissolve at startup in view:work.output_buffer(verilog) of u0(output_buffer_mem)
+Automatic dissolve at startup in view:work.jtag_controller(verilog) of u2(output_buffer)
+Automatic dissolve at startup in view:work.main(verilog) of u0(clock_manager)
+@N: BN116 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\hdl\clock_manager.v":21:0:21:5|Removing sequential instance u0.osc48m_out of view:PrimLib.dff(prim) because there are no references to its outputs 
+@W: BN132 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\hdl\jtag_controller.v":88:0:88:5|Removing sequential instance u3.output_buffer_enable,  because it is equivalent to instance u3.search_enable
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Finished RTL optimizations (Time elapsed 0h:00m:01s; Memory used current: 56MB peak: 57MB)
+
+Encoding state machine work.io_controller(verilog)-next_state[2:0]
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine work.jtag_pc_poll(verilog)-next_state[3:0]
+original code -> new code
+   000 -> 00
+   001 -> 01
+   010 -> 10
+   011 -> 11
+@W: MO161 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\hdl\jtag_pc_poll.v":47:0:47:5|Register bit shift_data_in[15] is always 0, optimizing ...
+@W: MO161 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\hdl\jtag_pc_poll.v":47:0:47:5|Register bit shift_data_in[14] is always 0, optimizing ...
+@W: MO161 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\hdl\jtag_pc_poll.v":47:0:47:5|Register bit shift_data_in[13] is always 0, optimizing ...
+@W: MO161 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\hdl\jtag_pc_poll.v":47:0:47:5|Register bit shift_data_in[12] is always 0, optimizing ...
+@W: MO161 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\hdl\jtag_pc_poll.v":47:0:47:5|Register bit shift_data_in[11] is always 0, optimizing ...
+@W: MO161 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\hdl\jtag_pc_poll.v":47:0:47:5|Register bit shift_data_in[10] is always 0, optimizing ...
+@W: MO161 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\hdl\jtag_pc_poll.v":47:0:47:5|Register bit shift_data_in[9] is always 0, optimizing ...
+@W: MO161 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\hdl\jtag_pc_poll.v":47:0:47:5|Register bit shift_data_in[8] is always 0, optimizing ...
+@W: MO161 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\hdl\jtag_pc_poll.v":47:0:47:5|Register bit shift_data_in[6] is always 0, optimizing ...
+@W: MO161 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\hdl\jtag_pc_poll.v":47:0:47:5|Register bit shift_data_in[5] is always 0, optimizing ...
+@W: MO161 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\hdl\jtag_pc_poll.v":47:0:47:5|Register bit shift_data_in[4] is always 0, optimizing ...
+@W: MO161 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\hdl\jtag_pc_poll.v":47:0:47:5|Register bit shift_data_in[3] is always 0, optimizing ...
+@W: MO161 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\hdl\jtag_pc_poll.v":47:0:47:5|Register bit shift_data_in[1] is always 0, optimizing ...
+@W: MO161 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\hdl\jtag_pc_poll.v":47:0:47:5|Register bit shift_data_in[0] is always 0, optimizing ...
+@N:"c:\documents and settings\administrator\my documents\actel\tdb_fpga\hdl\jtag_shift.v":99:0:99:5|Found counter in view:work.jtag_shift(verilog) inst bit_count[4:0]
+Encoding state machine work.jtag_shift(verilog)-next_state[12:0]
+original code -> new code
+   00000 -> 0000000000001
+   00001 -> 0000000000010
+   00010 -> 0000000000100
+   00011 -> 0000000001000
+   00100 -> 0000000010000
+   00101 -> 0000000100000
+   00110 -> 0000001000000
+   00111 -> 0000010000000
+   01000 -> 0000100000000
+   01001 -> 0001000000000
+   01010 -> 0010000000000
+   01011 -> 0100000000000
+   01100 -> 1000000000000
+@N:"c:\documents and settings\administrator\my documents\actel\tdb_fpga\hdl\program_table_loader.v":22:0:22:5|Found counter in view:work.program_table_loader(verilog) inst write_addr[9:0]
+Encoding state machine work.function_search(verilog)-next_state[3:0]
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MF184 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\hdl\function_search.v":81:35:81:44|Found 10 by 10 bit subtractor, 'un3_mid_0_0[9:0]'
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N: MF179 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\hdl\function_search.v":94:20:94:36|Found 16 bit by 16 bit '<' comparator, 'min10'
+@N: MF179 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\hdl\function_search.v":100:25:100:41|Found 16 bit by 16 bit '<' comparator, 'un1_find_1'
+@N: MF238 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\hdl\function_search.v":96:27:96:34|Found 10 bit incrementor, 'un2_min_1[9:0]'
+@N: MF239 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\hdl\function_search.v":102:27:102:34|Found 10 bit decrementor, 'un2_max[9:0]'
+@N: MF179 :"c:\documents and settings\administrator\my documents\actel\tdb_fpga\hdl\function_search.v":75:20:75:30|Found 10 bit by 10 bit '<' comparator, 'un1_max'
+Automatic dissolve during optimization of view:work.jtag_controller(verilog) of u0(jtag_pc_poll)
+Auto Dissolve of u3 (inst of view:work.jtag_controller(verilog))
+Auto Dissolve of u2 (inst of view:work.io_controller(verilog))
+Finished factoring (Time elapsed 0h:00m:03s; Memory used current: 57MB peak: 58MB)
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:03s; Memory used current: 57MB peak: 58MB)
+
+Constraint Checker successful!
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Sun Nov 14 16:14:04 2010
+
+###########################################################]

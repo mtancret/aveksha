@@ -1,0 +1,26 @@
+FlashPro
+Version: 9.0.0.15
+Release: v9.0
+
+Software Version: 9.0.0.15
+PDB file 'C:\Documents and Settings\Administrator\My
+Documents\actel\TDB_FPGA\designer\impl1\main.pdb' has been loaded successfully.
+DESIGN : main;  CHECKSUM : 6D8C;  PDB_VERSION : 1.6
+Driver : 3.0.0 build 1
+programmer '55934' : FlashPro4
+Opened 'C:\Documents and Settings\Administrator\My
+Documents\actel\TDB_FPGA\designer\impl1\main_fp\main.pro'
+programmer '55934' : Scan Chain...
+programmer '55934' : Scan Chain PASSED.
+programmer '55934' : Executing action PROGRAM
+programmer '55934' : EXPORT FSN[48] = 00e637188480
+programmer '55934' : Erase ...
+programmer '55934' : Completed erase
+programmer '55934' : Programming FPGA Array
+programmer '55934' : Verifying FPGA Array
+programmer '55934' :         Verifying FPGA Array -- pass
+programmer '55934' : Finished: Mon Feb 14 23:03:17 2011 (Elapsed time 00:01:23)
+programmer '55934' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+

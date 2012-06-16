@@ -1,0 +1,214 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Documents and Settings\Administrator\My Documents\actel\TDB\simulation
+vclock_manager
+!s100 @EGVBl8g1zgTfW??<Jo9L0
+ID4lQeLg<hZe7bc897O_MW1
+VbIGEbQVidjEQSWbaQ@2Xg3
+Z1 dC:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA\simulation
+Z2 w1289926503
+Z3 8C:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/synthesis/main.v
+Z4 FC:/Documents and Settings/Administrator/My Documents/actel/TDB_FPGA/synthesis/main.v
+L0 62
+Z5 OW;L;6.5d;42
+r1
+!s85 0
+31
+!s101 -O0
+Z6 o-work postsynth -O0
+vclocks
+!s100 @9V5XoS?MQ?fU_56BeE:o3
+ICznZRP]YJT^Y^h5zP`[^b1
+VTjWnEj`_WBW>?U7oDREMn2
+R1
+R2
+R3
+R4
+L0 5
+R5
+r1
+!s85 0
+31
+!s101 -O0
+R6
+vfunction_search
+!s100 5]iGiIe3IT<nTI>_=RCg?3
+IPfTjVi_ETTzhVWzV`j;^M3
+V_V6cf<XTR;omU;:CP9[111
+R1
+R2
+R3
+R4
+L0 638
+R5
+r1
+!s85 0
+31
+!s101 -O0
+R6
+vio_controller
+!s100 _^Nm5_2S@E0Q6B?`Q4P2V1
+I32<I3H::U;A5W_EzQB]?P2
+V[gT`dm8l=zSO9gba^9DmS2
+R1
+R2
+R3
+R4
+L0 1262
+R5
+r1
+!s85 0
+31
+!s101 -O0
+R6
+vjtag_controller
+!s100 :aiEj?c]CYmZ:C3YNDz:F1
+IT_L5Xfl7Q[16GZ`@>c;`h2
+Vg400SC[6T`YT<>em[2:PJ0
+R1
+R2
+R3
+R4
+L0 1048
+R5
+r1
+!s85 0
+31
+!s101 -O0
+R6
+vjtag_pc_poll
+!s100 izU8BHMXz[d]G<djcjX=b1
+IZQP4LOo0DZdT@?;5O;KUa2
+V<5J:k^@?K2[Qj<:6U=jeC2
+R1
+R2
+R3
+R4
+L0 520
+R5
+r1
+!s85 0
+31
+!s101 -O0
+R6
+vjtag_shift
+!s100 GgdmmF6S@<gWlW5iQezAJ2
+IJc@j]LAeTMJ8]8z2fTO3`2
+V773aoU3572:Ga70WS:;`X0
+R1
+R2
+R3
+R4
+L0 98
+R5
+r1
+!s85 0
+31
+!s101 -O0
+R6
+vmain
+!s100 W:O277fY7oVUgaQWk=;mf1
+IR3Mh50zI:ZOJ9:;kEJ5e80
+V<D_EXmSSWN7m<4dCn]5G32
+R1
+R2
+R3
+R4
+L0 1400
+R5
+r1
+!s85 0
+31
+!s101 -O0
+R6
+vmem_manager
+!s100 0:inP7Gmk_YaBWbcTRQBB2
+IPODQ?lNShF@g88AWZe<Hb1
+VbzZZ3ie2hH2Kim7Xcf2_F2
+R1
+R2
+R3
+R4
+L0 847
+R5
+r1
+!s85 0
+31
+!s101 -O0
+R6
+vmode_selector
+I==m1:hm_Ekak7`mgT8iAM3
+V<XQG=AK<<4EXN2[P?h`m:0
+R1
+Z7 w1289856853
+R3
+R4
+L0 2355
+R5
+r1
+31
+R6
+!s100 SLHl4Dja>0UZgGBPUo@Wa1
+!s85 0
+!s101 -O0
+vnew_new_jtag_shift
+I8eo[71:o[Y0z0h<CcAg?d3
+VHK2gIaWZ1K;:?HD9:EgjN3
+w1288181746
+8C:/Documents and Settings/Administrator/My Documents/actel/TDB/synthesis/main.v
+FC:/Documents and Settings/Administrator/My Documents/actel/TDB/synthesis/main.v
+L0 97
+R5
+r1
+31
+R6
+!s100 GCW[T;R<[C]Df5iFz_Nbz3
+!s85 0
+!s101 -O0
+voutput_buffer
+!s100 8QM97V:kN3OOMd_`dZ@Il2
+I3g[m<]?N3NZB3gOnk_3a91
+VIQ21H1cSIBgdV`EX?@SKN3
+R1
+R2
+R3
+R4
+L0 892
+R5
+r1
+!s85 0
+31
+!s101 -O0
+R6
+vprogram_table_loader
+Ioa2F@@8=]=69Aob@^T>KM2
+V65L<EQS1nF=7ZzZ63ablY0
+R1
+R7
+R3
+R4
+L0 1847
+R5
+r1
+31
+R6
+!s100 LI6H5d=X_9eUZBdm=S_X21
+!s85 0
+!s101 -O0
+vprogram_table_mem
+IhjW2GS:1<am@JE8XPVinj1
+VB0Qi5?:EhMh4M5ne:Ngfn0
+R1
+R7
+R3
+R4
+L0 1942
+R5
+r1
+31
+R6
+!s100 UFBSUJQSc1<2PIf5e;eTP0
+!s85 0
+!s101 -O0

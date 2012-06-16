@@ -1,0 +1,748 @@
+#Build: Synplify Pro D-2009.12A, Build 040R, Jan 20 2010
+#install: C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A
+#OS: Windows XP 5.1
+#Hostname: MATTHEWTANC0DD1
+
+#Implementation: synthesis
+
+#Mon Oct 18 17:27:38 2010
+
+$ Start of Compile
+#Mon Oct 18 17:27:38 2010
+
+Synopsys Verilog Compiler, version comp475rc, Build 060R, built Jan 15 2010
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+
+@I::"C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A\lib\proasic\igloo.v"
+@I::"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\clocks.v"
+@I::"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v"
+@I::"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_pc_poll.v"
+@I::"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\main.v"
+Verilog syntax check successful!
+Selecting top level module main
+@N: CG364 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\clocks.v":1:7:1:12|Synthesizing module clocks
+
+@N: CG364 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":58:7:58:16|Synthesizing module jtag_shift
+
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":184:11:184:13|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":209:11:209:13|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":210:16:210:23|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":234:11:234:13|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":235:16:235:23|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":259:11:259:13|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":260:16:260:23|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":284:11:284:13|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":285:16:285:23|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":302:11:302:13|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":303:16:303:23|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":320:11:320:13|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":321:16:321:23|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":338:11:338:13|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":339:16:339:23|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":356:11:356:13|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":357:16:357:23|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":378:11:378:13|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":379:16:379:23|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":400:11:400:13|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":401:16:401:23|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":422:11:422:13|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":423:16:423:23|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":444:11:444:13|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":445:16:445:23|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":466:11:466:13|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":467:16:467:23|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":488:11:488:13|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":489:16:489:23|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":510:11:510:13|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":511:16:511:23|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":532:16:532:23|Removing redundant assignment
+@N: CG179 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":549:16:549:23|Removing redundant assignment
+@N: CG364 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_pc_poll.v":1:7:1:18|Synthesizing module jtag_pc_poll
+
+@A:"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_pc_poll.v":36:0:36:5|Feedback mux created for signal data[15:0]. Did you forget the set/reset assignment for this signal? Specifying a reset value will improve timing and area
+@N: CG364 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\main.v":1:7:1:10|Synthesizing module main
+
+@W: CL247 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\main.v":18:13:18:20|Input port bit 10 of pld_data[15:0] is unused
+
+@W: CL157 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\main.v":8:7:8:12|*Output osc32k has undriven bits - a simulation mismatch is possible 
+@N: CL201 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_pc_poll.v":36:0:36:5|Trying to extract state machine for register next_state
+Extracted state machine for register next_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@N: CL201 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":83:0:83:5|Trying to extract state machine for register next_state
+Extracted state machine for register next_state
+State machine has 43 reachable states with original encodings of:
+   0000000
+   0000001
+   0000010
+   0000011
+   0000100
+   0000101
+   0000110
+   0000111
+   0001000
+   0001001
+   0001010
+   0001011
+   0001100
+   0001101
+   0001110
+   0001111
+   0010000
+   0010001
+   0010010
+   0010011
+   0010100
+   0010101
+   0010110
+   0010111
+   0011000
+   0011001
+   0011010
+   0011011
+   0011100
+   0011101
+   0011110
+   0011111
+   0100000
+   0100001
+   0100010
+   0100011
+   0100100
+   0100101
+   0100110
+   0100111
+   0101000
+   0101001
+   0101010
+@W: CL246 :"C:\Documents and Settings\Administrator\My Documents\actel\TDB\hdl\jtag_shift.v":61:13:61:19|Input port bits 15 to 8 of data_in[15:0] are unused
+
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Oct 18 17:27:39 2010
+
+###########################################################]
+Synopsys Actel Technology Mapper, Version map500act, Build 058R, Built Jan 18 2010 09:16:23
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version D-2009.12A
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+
+@W: MO111 :"c:\documents and settings\administrator\my documents\actel\tdb\hdl\main.v":8:7:8:12|tristate driver osc32k on net osc32k has its enable tied to GND (module main) 
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 56MB)
+
+Encoding state machine work.jtag_pc_poll(verilog)-next_state[3:0]
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+Encoding state machine work.jtag_shift(verilog)-next_state[42:0]
+original code -> new code
+   0000000 -> 000000
+   0000001 -> 000001
+   0000010 -> 000011
+   0000011 -> 000010
+   0000100 -> 000110
+   0000101 -> 000111
+   0000110 -> 000101
+   0000111 -> 000100
+   0001000 -> 001100
+   0001001 -> 001101
+   0001010 -> 001111
+   0001011 -> 001110
+   0001100 -> 001010
+   0001101 -> 001011
+   0001110 -> 001001
+   0001111 -> 001000
+   0010000 -> 011000
+   0010001 -> 011001
+   0010010 -> 011011
+   0010011 -> 011010
+   0010100 -> 011110
+   0010101 -> 011111
+   0010110 -> 011101
+   0010111 -> 011100
+   0011000 -> 010100
+   0011001 -> 010101
+   0011010 -> 010111
+   0011011 -> 010110
+   0011100 -> 010010
+   0011101 -> 010011
+   0011110 -> 010001
+   0011111 -> 010000
+   0100000 -> 110000
+   0100001 -> 110001
+   0100010 -> 110011
+   0100011 -> 110010
+   0100100 -> 110110
+   0100101 -> 110111
+   0100110 -> 110101
+   0100111 -> 110100
+   0101000 -> 111100
+   0101001 -> 111101
+   0101010 -> 111111
+Automatic dissolve during optimization of view:work.clocks(verilog) of un2_cnt3_1(PM_main_ADDC__0_2_AGLN125V5Z_VQFP100_Std)
+Automatic dissolve during optimization of view:work.clocks(verilog) of cnt4_1_1(PM_main_ADDC__0_2_AGLN125V5Z_VQFP100_Std)
+Automatic dissolve during optimization of view:work.main(verilog) of u1(jtag_pc_poll)
+Finished factoring (Time elapsed 0h:00m:01s; Memory used current: 57MB peak: 57MB)
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:01s; Memory used current: 56MB peak: 57MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:01s; Memory used current: 57MB peak: 58MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 57MB peak: 58MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 58MB peak: 59MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:01s; Memory used current: 58MB peak: 59MB)
+
+Finished preparing to map (Time elapsed 0h:00m:02s; Memory used current: 65MB peak: 65MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name     Fanout, notes                 
+-------------------------------------------------------------
+u1.jtag_reset / Q              26 : 26 asynchronous set/reset
+u1.u0.next_state[0] / Q        25                            
+pld_ctr_pad[1] / Y             26                            
+=============================================================
+
+@N: FP130 |Promoting Net osc96m on CLKINT  u0.osc96m_inferred_clock 
+@N: FP130 |Promoting Net osc48m_c on CLKBUF  osc48m_pad 
+Buffering pld_ctr_c[1], fanout 26 segments 2
+Replicating Sequential Instance u1.u0.next_state[0], fanout 25 segments 2
+Replicating Sequential Instance u1.jtag_reset, fanout 27 segments 2
+Finished technology mapping (Time elapsed 0h:00m:02s; Memory used current: 70MB peak: 71MB)
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:02s; Memory used current: 70MB peak: 71MB)
+
+
+Added 1 Buffers
+Added 2 Cells via replication
+	Added 2 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+Finished restoring hierarchy (Time elapsed 0h:00m:02s; Memory used current: 70MB peak: 71MB)
+
+Writing Analyst data base C:\Documents and Settings\Administrator\My Documents\actel\TDB\synthesis\main.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:02s; Memory used current: 70MB peak: 71MB)
+
+Writing EDIF Netlist and constraint files
+D-2009.12A
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:02s; Memory used current: 70MB peak: 71MB)
+
+@W: MT420 |Found inferred clock main|osc48m with period 10.00ns. A user-defined clock should be declared on object "p:osc48m"
+
+@W: MT420 |Found inferred clock clocks|osc96m_inferred_clock with period 10.00ns. A user-defined clock should be declared on object "n:u0.osc96m"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Oct 18 17:27:45 2010
+#
+
+
+Top view:               main
+Library name:           IGLOO
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.85, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        IGLOO
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -6.730
+
+                                 Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock                   Frequency     Frequency     Period        Period        Slack      Type         Group              
+------------------------------------------------------------------------------------------------------------------------------------
+clocks|osc96m_inferred_clock     100.0 MHz     59.8 MHz      10.000        16.730        -6.730     inferred     Inferred_clkgroup_1
+main|osc48m                      100.0 MHz     213.3 MHz     10.000        4.688         5.312      inferred     Inferred_clkgroup_0
+====================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                      |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                      Ending                        |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------------------------------------------------
+main|osc48m                   main|osc48m                   |  10.000      5.312   |  No paths    -      |  No paths    -      |  No paths    -    
+clocks|osc96m_inferred_clock  clocks|osc96m_inferred_clock  |  10.000      -6.730  |  No paths    -      |  No paths    -      |  No paths    -    
+===================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: clocks|osc96m_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                          Starting                                                                   Arrival           
+Instance                  Reference                        Type         Pin     Net                  Time        Slack 
+                          Clock                                                                                        
+-----------------------------------------------------------------------------------------------------------------------
+u1.u0.next_state[3]       clocks|osc96m_inferred_clock     DFN1E1C1     Q       next_state[3]        0.885       -6.730
+u1.u0.next_state[5]       clocks|osc96m_inferred_clock     DFN1E1C1     Q       next_state[5]        0.885       -6.530
+u1.u0.next_state[4]       clocks|osc96m_inferred_clock     DFN1E1C1     Q       next_state[4]        0.697       -6.135
+u1.u0.next_state[1]       clocks|osc96m_inferred_clock     DFN1E1C1     Q       next_state[1]        0.885       -6.053
+u1.u0.next_state[2]       clocks|osc96m_inferred_clock     DFN1E1C1     Q       next_state[2]        0.885       -5.836
+u1.u0.next_state[0]       clocks|osc96m_inferred_clock     DFN1E1C1     Q       next_state[0]        0.697       -5.669
+u1.u0.next_state_0[0]     clocks|osc96m_inferred_clock     DFN1E1C1     Q       next_state_0[0]      0.885       -2.848
+u1.jtag_mode              clocks|osc96m_inferred_clock     DFN1E1C1     Q       jtag_mode            0.885       -1.904
+u1.jtag_enable            clocks|osc96m_inferred_clock     DFN1E1C1     Q       jtag_enable          0.697       0.507 
+u1.u0.data_out[3]         clocks|osc96m_inferred_clock     DFN1E0C1     Q       jtag_data_out[3]     0.885       1.481 
+=======================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                      Starting                                                                 Required           
+Instance              Reference                        Type         Pin     Net                Time         Slack 
+                      Clock                                                                                       
+------------------------------------------------------------------------------------------------------------------
+u1.u0.data_out[9]     clocks|osc96m_inferred_clock     DFN1E0C1     D       data_out_35[9]     9.353        -6.730
+u1.u0.data_out[0]     clocks|osc96m_inferred_clock     DFN1E0C1     E       N_305              9.478        -6.053
+u1.u0.data_out[1]     clocks|osc96m_inferred_clock     DFN1E0C1     E       N_305              9.478        -6.053
+u1.u0.data_out[2]     clocks|osc96m_inferred_clock     DFN1E0C1     E       N_305              9.478        -6.053
+u1.u0.data_out[3]     clocks|osc96m_inferred_clock     DFN1E0C1     E       N_305              9.478        -6.053
+u1.u0.data_out[4]     clocks|osc96m_inferred_clock     DFN1E0C1     E       N_305              9.478        -6.053
+u1.u0.data_out[5]     clocks|osc96m_inferred_clock     DFN1E0C1     E       N_305              9.478        -6.053
+u1.u0.data_out[6]     clocks|osc96m_inferred_clock     DFN1E0C1     E       N_305              9.478        -6.053
+u1.u0.data_out[7]     clocks|osc96m_inferred_clock     DFN1E0C1     E       N_305              9.478        -6.053
+u1.u0.data_out[8]     clocks|osc96m_inferred_clock     DFN1E0C1     E       N_305              9.478        -6.053
+==================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.647
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.353
+
+    - Propagation time:                      16.083
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -6.730
+
+    Number of logic level(s):                7
+    Starting point:                          u1.u0.next_state[3] / Q
+    Ending point:                            u1.u0.data_out[9] / D
+    The start point is clocked by            clocks|osc96m_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            clocks|osc96m_inferred_clock [rising] on pin CLK
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+u1.u0.next_state[3]                      DFN1E1C1     Q        Out     0.885     0.885       -         
+next_state[3]                            Net          -        -       2.861     -           21        
+u1.u0.data_out_35_0_iv_0_o2_4[7]         OR2          B        In      -         3.746       -         
+u1.u0.data_out_35_0_iv_0_o2_4[7]         OR2          Y        Out     0.777     4.523       -         
+N_61                                     Net          -        -       2.053     -           10        
+u1.u0.data_out_35_0_iv_0_a2[5]           OR2          B        In      -         6.576       -         
+u1.u0.data_out_35_0_iv_0_a2[5]           OR2          Y        Out     0.777     7.352       -         
+N_254                                    Net          -        -       1.422     -           4         
+u1.u0.data_out_35_0_iv_0_o2_0_a1[12]     OR2A         B        In      -         8.774       -         
+u1.u0.data_out_35_0_iv_0_o2_0_a1[12]     OR2A         Y        Out     0.777     9.551       -         
+N_284                                    Net          -        -       1.833     -           7         
+u1.u0.data_out_35_0_iv_0_o2_2[12]        NOR2B        A        In      -         11.385      -         
+u1.u0.data_out_35_0_iv_0_o2_2[12]        NOR2B        Y        Out     0.618     12.003      -         
+N_64                                     Net          -        -       0.969     -           3         
+u1.u0.data_out_35_0_iv_0_o2_1[9]         NOR2B        A        In      -         12.972      -         
+u1.u0.data_out_35_0_iv_0_o2_1[9]         NOR2B        Y        Out     0.618     13.590      -         
+data_out_35_0_iv_0_o2_1[9]               Net          -        -       0.386     -           1         
+u1.u0.data_out_35_0_iv_0_o2[9]           OR3C         C        In      -         13.976      -         
+u1.u0.data_out_35_0_iv_0_o2[9]           OR3C         Y        Out     0.770     14.746      -         
+N_574                                    Net          -        -       0.386     -           1         
+u1.u0.data_out_35_0_iv_0[9]              AO1B         A        In      -         15.133      -         
+u1.u0.data_out_35_0_iv_0[9]              AO1B         Y        Out     0.564     15.697      -         
+data_out_35[9]                           Net          -        -       0.386     -           1         
+u1.u0.data_out[9]                        DFN1E0C1     D        In      -         16.083      -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 16.730 is 6.433(38.5%) logic and 10.297(61.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.647
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.353
+
+    - Propagation time:                      15.882
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -6.530
+
+    Number of logic level(s):                7
+    Starting point:                          u1.u0.next_state[5] / Q
+    Ending point:                            u1.u0.data_out[9] / D
+    The start point is clocked by            clocks|osc96m_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            clocks|osc96m_inferred_clock [rising] on pin CLK
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+u1.u0.next_state[5]                      DFN1E1C1     Q        Out     0.885     0.885       -         
+next_state[5]                            Net          -        -       2.827     -           20        
+u1.u0.data_out_35_0_iv_0_o2_4[7]         OR2          A        In      -         3.713       -         
+u1.u0.data_out_35_0_iv_0_o2_4[7]         OR2          Y        Out     0.610     4.322       -         
+N_61                                     Net          -        -       2.053     -           10        
+u1.u0.data_out_35_0_iv_0_a2[5]           OR2          B        In      -         6.375       -         
+u1.u0.data_out_35_0_iv_0_a2[5]           OR2          Y        Out     0.777     7.152       -         
+N_254                                    Net          -        -       1.422     -           4         
+u1.u0.data_out_35_0_iv_0_o2_0_a1[12]     OR2A         B        In      -         8.574       -         
+u1.u0.data_out_35_0_iv_0_o2_0_a1[12]     OR2A         Y        Out     0.777     9.351       -         
+N_284                                    Net          -        -       1.833     -           7         
+u1.u0.data_out_35_0_iv_0_o2_2[12]        NOR2B        A        In      -         11.184      -         
+u1.u0.data_out_35_0_iv_0_o2_2[12]        NOR2B        Y        Out     0.618     11.802      -         
+N_64                                     Net          -        -       0.969     -           3         
+u1.u0.data_out_35_0_iv_0_o2_1[9]         NOR2B        A        In      -         12.771      -         
+u1.u0.data_out_35_0_iv_0_o2_1[9]         NOR2B        Y        Out     0.618     13.389      -         
+data_out_35_0_iv_0_o2_1[9]               Net          -        -       0.386     -           1         
+u1.u0.data_out_35_0_iv_0_o2[9]           OR3C         C        In      -         13.775      -         
+u1.u0.data_out_35_0_iv_0_o2[9]           OR3C         Y        Out     0.770     14.546      -         
+N_574                                    Net          -        -       0.386     -           1         
+u1.u0.data_out_35_0_iv_0[9]              AO1B         A        In      -         14.932      -         
+u1.u0.data_out_35_0_iv_0[9]              AO1B         Y        Out     0.564     15.496      -         
+data_out_35[9]                           Net          -        -       0.386     -           1         
+u1.u0.data_out[9]                        DFN1E0C1     D        In      -         15.882      -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 16.530 is 6.266(37.9%) logic and 10.263(62.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.647
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.353
+
+    - Propagation time:                      15.488
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -6.135
+
+    Number of logic level(s):                7
+    Starting point:                          u1.u0.next_state[4] / Q
+    Ending point:                            u1.u0.data_out[9] / D
+    The start point is clocked by            clocks|osc96m_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            clocks|osc96m_inferred_clock [rising] on pin CLK
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+u1.u0.next_state[4]                      DFN1E1C1     Q        Out     0.697     0.697       -         
+next_state[4]                            Net          -        -       2.894     -           22        
+u1.u0.data_out_35_0_iv_0_a2[11]          OR2B         A        In      -         3.592       -         
+u1.u0.data_out_35_0_iv_0_a2[11]          OR2B         Y        Out     0.587     4.178       -         
+N_243                                    Net          -        -       1.969     -           8         
+u1.u0.data_out_35_0_iv_0_a2[5]           OR2          A        In      -         6.148       -         
+u1.u0.data_out_35_0_iv_0_a2[5]           OR2          Y        Out     0.610     6.757       -         
+N_254                                    Net          -        -       1.422     -           4         
+u1.u0.data_out_35_0_iv_0_o2_0_a1[12]     OR2A         B        In      -         8.179       -         
+u1.u0.data_out_35_0_iv_0_o2_0_a1[12]     OR2A         Y        Out     0.777     8.956       -         
+N_284                                    Net          -        -       1.833     -           7         
+u1.u0.data_out_35_0_iv_0_o2_2[12]        NOR2B        A        In      -         10.789      -         
+u1.u0.data_out_35_0_iv_0_o2_2[12]        NOR2B        Y        Out     0.618     11.408      -         
+N_64                                     Net          -        -       0.969     -           3         
+u1.u0.data_out_35_0_iv_0_o2_1[9]         NOR2B        A        In      -         12.376      -         
+u1.u0.data_out_35_0_iv_0_o2_1[9]         NOR2B        Y        Out     0.618     12.995      -         
+data_out_35_0_iv_0_o2_1[9]               Net          -        -       0.386     -           1         
+u1.u0.data_out_35_0_iv_0_o2[9]           OR3C         C        In      -         13.381      -         
+u1.u0.data_out_35_0_iv_0_o2[9]           OR3C         Y        Out     0.770     14.151      -         
+N_574                                    Net          -        -       0.386     -           1         
+u1.u0.data_out_35_0_iv_0[9]              AO1B         A        In      -         14.538      -         
+u1.u0.data_out_35_0_iv_0[9]              AO1B         Y        Out     0.564     15.101      -         
+data_out_35[9]                           Net          -        -       0.386     -           1         
+u1.u0.data_out[9]                        DFN1E0C1     D        In      -         15.488      -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 16.135 is 5.888(36.5%) logic and 10.247(63.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.522
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.478
+
+    - Propagation time:                      15.531
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -6.053
+
+    Number of logic level(s):                6
+    Starting point:                          u1.u0.next_state[1] / Q
+    Ending point:                            u1.u0.data_out[0] / E
+    The start point is clocked by            clocks|osc96m_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            clocks|osc96m_inferred_clock [rising] on pin CLK
+
+Instance / Net                                            Pin      Pin               Arrival     No. of    
+Name                                         Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------
+u1.u0.next_state[1]                          DFN1E1C1     Q        Out     0.885     0.885       -         
+next_state[1]                                Net          -        -       2.827     -           20        
+u1.u0.next_state_RNIFCQC[2]                  OR2A         B        In      -         3.713       -         
+u1.u0.next_state_RNIFCQC[2]                  OR2A         Y        Out     0.777     4.489       -         
+N_66                                         Net          -        -       2.447     -           13        
+u1.u0.data_out_35_0_iv_0_a2_2[1]             NOR2         B        In      -         6.937       -         
+u1.u0.data_out_35_0_iv_0_a2_2[1]             NOR2         Y        Out     0.777     7.714       -         
+N_282                                        Net          -        -       1.422     -           4         
+u1.u0.data_out_35_0_iv_0_a2_2_RNIHTHN[1]     OR2          B        In      -         9.136       -         
+u1.u0.data_out_35_0_iv_0_a2_2_RNIHTHN[1]     OR2          Y        Out     0.618     9.754       -         
+N_115                                        Net          -        -       0.464     -           2         
+u1.u0.next_state_RNIN3VT[0]                  OR2A         A        In      -         10.217      -         
+u1.u0.next_state_RNIN3VT[0]                  OR2A         Y        Out     0.645     10.863      -         
+N_214                                        Net          -        -       0.386     -           1         
+u1.u0.data_out_35_0_iv_0_a2_RNI2SD03[5]      NOR3C        B        In      -         11.249      -         
+u1.u0.data_out_35_0_iv_0_a2_RNI2SD03[5]      NOR3C        Y        Out     0.729     11.977      -         
+un1_tck19_1_i_0_3                            Net          -        -       0.386     -           1         
+u1.u0.data_out_35_0_iv_0_o2_RNI8RO74[11]     OR3C         A        In      -         12.364      -         
+u1.u0.data_out_35_0_iv_0_o2_RNI8RO74[11]     OR3C         Y        Out     0.558     12.921      -         
+N_305                                        Net          -        -       2.610     -           16        
+u1.u0.data_out[0]                            DFN1E0C1     E        In      -         15.531      -         
+===========================================================================================================
+Total path delay (propagation time + setup) of 16.054 is 5.510(34.3%) logic and 10.543(65.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.522
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.478
+
+    - Propagation time:                      15.531
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -6.053
+
+    Number of logic level(s):                6
+    Starting point:                          u1.u0.next_state[1] / Q
+    Ending point:                            u1.u0.data_out[15] / E
+    The start point is clocked by            clocks|osc96m_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            clocks|osc96m_inferred_clock [rising] on pin CLK
+
+Instance / Net                                            Pin      Pin               Arrival     No. of    
+Name                                         Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------
+u1.u0.next_state[1]                          DFN1E1C1     Q        Out     0.885     0.885       -         
+next_state[1]                                Net          -        -       2.827     -           20        
+u1.u0.next_state_RNIFCQC[2]                  OR2A         B        In      -         3.713       -         
+u1.u0.next_state_RNIFCQC[2]                  OR2A         Y        Out     0.777     4.489       -         
+N_66                                         Net          -        -       2.447     -           13        
+u1.u0.data_out_35_0_iv_0_a2_2[1]             NOR2         B        In      -         6.937       -         
+u1.u0.data_out_35_0_iv_0_a2_2[1]             NOR2         Y        Out     0.777     7.714       -         
+N_282                                        Net          -        -       1.422     -           4         
+u1.u0.data_out_35_0_iv_0_a2_2_RNIHTHN[1]     OR2          B        In      -         9.136       -         
+u1.u0.data_out_35_0_iv_0_a2_2_RNIHTHN[1]     OR2          Y        Out     0.618     9.754       -         
+N_115                                        Net          -        -       0.464     -           2         
+u1.u0.next_state_RNIN3VT[0]                  OR2A         A        In      -         10.217      -         
+u1.u0.next_state_RNIN3VT[0]                  OR2A         Y        Out     0.645     10.863      -         
+N_214                                        Net          -        -       0.386     -           1         
+u1.u0.data_out_35_0_iv_0_a2_RNI2SD03[5]      NOR3C        B        In      -         11.249      -         
+u1.u0.data_out_35_0_iv_0_a2_RNI2SD03[5]      NOR3C        Y        Out     0.729     11.977      -         
+un1_tck19_1_i_0_3                            Net          -        -       0.386     -           1         
+u1.u0.data_out_35_0_iv_0_o2_RNI8RO74[11]     OR3C         A        In      -         12.364      -         
+u1.u0.data_out_35_0_iv_0_o2_RNI8RO74[11]     OR3C         Y        Out     0.558     12.921      -         
+N_305                                        Net          -        -       2.610     -           16        
+u1.u0.data_out[15]                           DFN1E0C1     E        In      -         15.531      -         
+===========================================================================================================
+Total path delay (propagation time + setup) of 16.054 is 5.510(34.3%) logic and 10.543(65.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: main|osc48m
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+               Starting                                       Arrival          
+Instance       Reference       Type     Pin     Net           Time        Slack
+               Clock                                                           
+-------------------------------------------------------------------------------
+u0.cnt4[1]     main|osc48m     DFN1     Q       cnt4[1]       0.885       5.312
+u0.cnt4[0]     main|osc48m     DFN1     Q       cnt4[0]       0.885       5.978
+u0.cnt3[0]     main|osc48m     DFN1     Q       cnt3[0]       0.885       6.492
+u0.osc8m       main|osc48m     DFN1     Q       mcu_osc_c     0.885       6.492
+u0.cnt3[1]     main|osc48m     DFN1     Q       cnt3[1]       0.885       7.031
+u0.osc6m       main|osc48m     DFN1     Q       osc6m_c       0.885       7.031
+===============================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+               Starting                                       Required          
+Instance       Reference       Type     Pin     Net           Time         Slack
+               Clock                                                            
+--------------------------------------------------------------------------------
+u0.osc6m       main|osc48m     DFN1     D       osc6m_RNO     9.353        5.312
+u0.cnt4[1]     main|osc48m     DFN1     D       cnt4_1[1]     9.353        5.987
+u0.cnt3[0]     main|osc48m     DFN1     D       N_12_i_0      9.353        6.492
+u0.osc8m       main|osc48m     DFN1     D       osc8m_RNO     9.353        6.492
+u0.cnt4[0]     main|osc48m     DFN1     D       cnt4_i[0]     9.353        6.503
+u0.cnt3[1]     main|osc48m     DFN1     D       cnt3[0]       9.311        7.962
+================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.647
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.353
+
+    - Propagation time:                      4.040
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 5.312
+
+    Number of logic level(s):                2
+    Starting point:                          u0.cnt4[1] / Q
+    Ending point:                            u0.osc6m / D
+    The start point is clocked by            main|osc48m [rising] on pin CLK
+    The end   point is clocked by            main|osc48m [rising] on pin CLK
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name                 Type      Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+u0.cnt4[1]           DFN1      Q        Out     0.885     0.885       -         
+cnt4[1]              Net       -        -       0.464     -           2         
+u0.osc6m_RNO_0       NOR2B     B        In      -         1.349       -         
+u0.osc6m_RNO_0       NOR2B     Y        Out     0.754     2.103       -         
+osc6m_0_sqmuxa_0     Net       -        -       0.386     -           1         
+u0.osc6m_RNO         AX1C      B        In      -         2.489       -         
+u0.osc6m_RNO         AX1C      Y        Out     1.165     3.654       -         
+osc6m_RNO            Net       -        -       0.386     -           1         
+u0.osc6m             DFN1      D        In      -         4.040       -         
+================================================================================
+Total path delay (propagation time + setup) of 4.688 is 3.452(73.6%) logic and 1.236(26.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: AGLN125V5Z_VQFP100_Std
+Report for cell main.verilog
+  Core Cell usage:
+              cell count     area count*area
+               AO1    10      1.0       10.0
+              AO15     1      1.0        1.0
+              AO1A     9      1.0        9.0
+              AO1B    12      1.0       12.0
+              AO1C     4      1.0        4.0
+              AO1D     5      1.0        5.0
+              AOI1     1      1.0        1.0
+             AOI1B     5      1.0        5.0
+              AX1C     1      1.0        1.0
+             AXOI4     1      1.0        1.0
+              BUFF     1      1.0        1.0
+            CLKINT     1      0.0        0.0
+               GND     4      0.0        0.0
+               INV     3      1.0        3.0
+               MX2     4      1.0        4.0
+              NOR2    11      1.0       11.0
+             NOR2A    22      1.0       22.0
+             NOR2B    13      1.0       13.0
+              NOR3     1      1.0        1.0
+             NOR3A     9      1.0        9.0
+             NOR3B     7      1.0        7.0
+             NOR3C    15      1.0       15.0
+               OA1     5      1.0        5.0
+              OA1A     7      1.0        7.0
+              OA1B     2      1.0        2.0
+              OA1C     2      1.0        2.0
+              OAI1     2      1.0        2.0
+               OR2    10      1.0       10.0
+              OR2A    19      1.0       19.0
+              OR2B    12      1.0       12.0
+               OR3     3      1.0        3.0
+              OR3A    15      1.0       15.0
+              OR3B    15      1.0       15.0
+              OR3C    10      1.0       10.0
+               VCC     4      0.0        0.0
+             XNOR2     3      1.0        3.0
+              XOR2     6      1.0        6.0
+
+
+              DFN1     7      1.0        7.0
+          DFN1E0C1    16      1.0       16.0
+            DFN1E1    16      1.0       16.0
+          DFN1E1C1    14      1.0       14.0
+          DFN1E1P1     3      1.0        3.0
+            DFN1P1     1      1.0        1.0
+                   -----          ----------
+             TOTAL   312               303.0
+
+
+  IO Cell usage:
+              cell count
+             BIBUF     3
+            CLKBUF     1
+             INBUF     4
+            OUTBUF     7
+           TRIBUFF    13
+                   -----
+             TOTAL    28
+
+
+Core Cells         : 303 of 3072 (10%)
+IO Cells           : 28 of 133 (21%)
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+
+Mapper successful!
+Process took 0h:00m:03s realtime, 0h:00m:02s cputime
+# Mon Oct 18 17:27:45 2010
+
+###########################################################]

@@ -1,0 +1,566 @@
+KEY LIBERO "9.0"
+KEY CAPTURE "9.0.0.15"
+KEY DEFAULT_IMPORT_LOC "C:\Documents and Settings\Administrator\My Documents\actel\TDB\constraint"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "7bf8742b-4a8f-4264-85d7-c413381b8be4"
+KEY HDLTechnology "VERILOG"
+KEY VendorTechnology_Family "IGLOO"
+KEY VendorTechnology_Die "UM4X2M1LP"
+KEY VendorTechnology_Package "vq100"
+KEY ProjectLocation "C:\Documents and Settings\Administrator\My Documents\actel\TDB_FPGA"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "main::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\designer\impl1\main.adb,adb"
+STATE="utd"
+TIME="1290109289"
+SIZE="951296"
+ENDFILE
+VALUE "<project>\designer\impl1\main.pdb,pdb"
+STATE="utd"
+TIME="1290109218"
+SIZE="47104"
+ENDFILE
+VALUE "<project>\designer\impl1\main_ba.sdf,ba_sdf"
+STATE="ood"
+TIME="1287756221"
+SIZE="298011"
+ENDFILE
+VALUE "<project>\designer\impl1\main_ba.v,ba_hdl"
+STATE="ood"
+TIME="1287756221"
+SIZE="101719"
+ENDFILE
+VALUE "<project>\designer\impl1\main_fp\main.pro,pro"
+STATE="utd"
+TIME="1290109860"
+SIZE="2029"
+ENDFILE
+VALUE "<project>\designer\impl1\main_iteration_summary.rpt,log"
+STATE="utd"
+TIME="1288151643"
+SIZE="1365"
+ENDFILE
+VALUE "<project>\designer\impl1\main_power.rpt,log"
+STATE="utd"
+TIME="1288151564"
+SIZE="12356"
+ENDFILE
+VALUE "<project>\designer\impl1\main_power_r1_initial.rpt,log"
+STATE="utd"
+TIME="1288151427"
+SIZE="12356"
+ENDFILE
+VALUE "<project>\designer\impl1\main_power_r1_s1.rpt,log"
+STATE="utd"
+TIME="1288151465"
+SIZE="12356"
+ENDFILE
+VALUE "<project>\designer\impl1\main_power_r1_s2.rpt,log"
+STATE="utd"
+TIME="1288151525"
+SIZE="12356"
+ENDFILE
+VALUE "<project>\designer\impl1\main_power_r1_s3.rpt,log"
+STATE="utd"
+TIME="1288151564"
+SIZE="12356"
+ENDFILE
+VALUE "<project>\designer\impl1\main_power_r1_s4.rpt,log"
+STATE="utd"
+TIME="1288151603"
+SIZE="12356"
+ENDFILE
+VALUE "<project>\designer\impl1\main_power_r1_s5.rpt,log"
+STATE="utd"
+TIME="1288151643"
+SIZE="12356"
+ENDFILE
+VALUE "<project>\designer\impl1\main_timing.rpt,log"
+STATE="utd"
+TIME="1288151562"
+SIZE="47061"
+ENDFILE
+VALUE "<project>\designer\impl1\main_timing_r1_initial.rpt,log"
+STATE="utd"
+TIME="1288151407"
+SIZE="47310"
+ENDFILE
+VALUE "<project>\designer\impl1\main_timing_r1_s1.rpt,log"
+STATE="utd"
+TIME="1288151463"
+SIZE="47310"
+ENDFILE
+VALUE "<project>\designer\impl1\main_timing_r1_s2.rpt,log"
+STATE="utd"
+TIME="1288151506"
+SIZE="46263"
+ENDFILE
+VALUE "<project>\designer\impl1\main_timing_r1_s3.rpt,log"
+STATE="utd"
+TIME="1288151562"
+SIZE="47061"
+ENDFILE
+VALUE "<project>\designer\impl1\main_timing_r1_s4.rpt,log"
+STATE="utd"
+TIME="1288151601"
+SIZE="45247"
+ENDFILE
+VALUE "<project>\designer\impl1\main_timing_r1_s5.rpt,log"
+STATE="utd"
+TIME="1288151641"
+SIZE="45866"
+ENDFILE
+VALUE "<project>\designer\impl1\main_timing_violations_max.rpt,log"
+STATE="utd"
+TIME="1288151563"
+SIZE="27754"
+ENDFILE
+VALUE "<project>\designer\impl1\main_timing_violations_max_r1_initial.rpt,log"
+STATE="utd"
+TIME="1288151407"
+SIZE="27763"
+ENDFILE
+VALUE "<project>\designer\impl1\main_timing_violations_max_r1_s1.rpt,log"
+STATE="utd"
+TIME="1288151464"
+SIZE="27763"
+ENDFILE
+VALUE "<project>\designer\impl1\main_timing_violations_max_r1_s2.rpt,log"
+STATE="utd"
+TIME="1288151507"
+SIZE="27799"
+ENDFILE
+VALUE "<project>\designer\impl1\main_timing_violations_max_r1_s3.rpt,log"
+STATE="utd"
+TIME="1288151563"
+SIZE="27754"
+ENDFILE
+VALUE "<project>\designer\impl1\main_timing_violations_max_r1_s4.rpt,log"
+STATE="utd"
+TIME="1288151602"
+SIZE="27729"
+ENDFILE
+VALUE "<project>\designer\impl1\main_timing_violations_max_r1_s5.rpt,log"
+STATE="utd"
+TIME="1288151642"
+SIZE="27746"
+ENDFILE
+VALUE "<project>\designer\impl1\main_timing_violations_min.rpt,log"
+STATE="utd"
+TIME="1288151563"
+SIZE="27678"
+ENDFILE
+VALUE "<project>\designer\impl1\main_timing_violations_min_r1_initial.rpt,log"
+STATE="utd"
+TIME="1288151408"
+SIZE="27584"
+ENDFILE
+VALUE "<project>\designer\impl1\main_timing_violations_min_r1_s1.rpt,log"
+STATE="utd"
+TIME="1288151464"
+SIZE="27584"
+ENDFILE
+VALUE "<project>\designer\impl1\main_timing_violations_min_r1_s2.rpt,log"
+STATE="utd"
+TIME="1288151507"
+SIZE="27677"
+ENDFILE
+VALUE "<project>\designer\impl1\main_timing_violations_min_r1_s3.rpt,log"
+STATE="utd"
+TIME="1288151563"
+SIZE="27678"
+ENDFILE
+VALUE "<project>\designer\impl1\main_timing_violations_min_r1_s4.rpt,log"
+STATE="utd"
+TIME="1288151602"
+SIZE="27636"
+ENDFILE
+VALUE "<project>\designer\impl1\main_timing_violations_min_r1_s5.rpt,log"
+STATE="utd"
+TIME="1288151642"
+SIZE="27662"
+ENDFILE
+VALUE "<project>\hdl\clock_manager.v,hdl"
+STATE="utd"
+TIME="1297741406"
+SIZE="1305"
+ENDFILE
+VALUE "<project>\hdl\function_search.v,hdl"
+STATE="utd"
+TIME="1297740497"
+SIZE="3921"
+ENDFILE
+VALUE "<project>\hdl\io_controller.v,hdl"
+STATE="utd"
+TIME="1289925792"
+SIZE="2680"
+ENDFILE
+VALUE "<project>\hdl\jtag_controller.v,hdl"
+STATE="utd"
+TIME="1297741788"
+SIZE="2794"
+ENDFILE
+VALUE "<project>\hdl\jtag_pc_poll.v,hdl"
+STATE="utd"
+TIME="1289833512"
+SIZE="1790"
+ENDFILE
+VALUE "<project>\hdl\jtag_shift.v,hdl"
+STATE="utd"
+TIME="1289755621"
+SIZE="5638"
+ENDFILE
+VALUE "<project>\hdl\jtag_watchpoint_poll.v,hdl"
+STATE="utd"
+TIME="1290071475"
+SIZE="7039"
+ENDFILE
+VALUE "<project>\hdl\main.v,hdl"
+STATE="utd"
+TIME="1297740078"
+SIZE="2856"
+ENDFILE
+VALUE "<project>\hdl\mem_manager.v,hdl"
+STATE="utd"
+TIME="1289930259"
+SIZE="1083"
+ENDFILE
+VALUE "<project>\hdl\mode_selector.v,hdl"
+STATE="utd"
+TIME="1289922477"
+SIZE="333"
+ENDFILE
+VALUE "<project>\hdl\output_buffer.v,hdl"
+STATE="utd"
+TIME="1297741888"
+SIZE="3140"
+ENDFILE
+VALUE "<project>\hdl\program_table_loader.v,hdl"
+STATE="utd"
+TIME="1297742377"
+SIZE="839"
+ENDFILE
+VALUE "<project>\simulation\modes-poset.do,do"
+STATE="utd"
+TIME="1289842024"
+SIZE="1464"
+ENDFILE
+VALUE "<project>\simulation\modes.do,do"
+STATE="utd"
+TIME="1289855433"
+SIZE="1527"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1289932101"
+SIZE="1266"
+ENDFILE
+VALUE "<project>\simulation\test.do,do"
+STATE="utd"
+TIME="1288096587"
+SIZE="670"
+ENDFILE
+VALUE "<project>\simulation\wave.do,do"
+STATE="utd"
+TIME="1288096596"
+SIZE="3034"
+ENDFILE
+VALUE "<project>\smartgen\clocks\clocks.cxf,actgen_cxf"
+STATE="utd"
+TIME="1297728768"
+SIZE="1774"
+ENDFILE
+VALUE "<project>\smartgen\clocks\clocks.gen,gen"
+STATE="utd"
+TIME="1297728767"
+SIZE="730"
+PARENT="<project>\smartgen\clocks\clocks.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\clocks\clocks.log,log"
+STATE="utd"
+TIME="1297728768"
+SIZE="2949"
+PARENT="<project>\smartgen\clocks\clocks.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\clocks\clocks.v,hdl"
+STATE="utd"
+TIME="1297728768"
+SIZE="1734"
+PARENT="<project>\smartgen\clocks\clocks.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\output_buffer_mem\output_buffer_mem.cxf,actgen_cxf"
+STATE="utd"
+TIME="1289793307"
+SIZE="2330"
+ENDFILE
+VALUE "<project>\smartgen\output_buffer_mem\output_buffer_mem.gen,gen"
+STATE="utd"
+TIME="1289793306"
+SIZE="1004"
+PARENT="<project>\smartgen\output_buffer_mem\output_buffer_mem.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\output_buffer_mem\output_buffer_mem.log,log"
+STATE="utd"
+TIME="1289793307"
+SIZE="3577"
+PARENT="<project>\smartgen\output_buffer_mem\output_buffer_mem.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\output_buffer_mem\output_buffer_mem.v,hdl"
+STATE="utd"
+TIME="1289793307"
+SIZE="18836"
+PARENT="<project>\smartgen\output_buffer_mem\output_buffer_mem.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\program_table_mem\program_table_mem.cxf,actgen_cxf"
+STATE="utd"
+TIME="1288130613"
+SIZE="3198"
+ENDFILE
+VALUE "<project>\smartgen\program_table_mem\program_table_mem.gen,gen"
+STATE="utd"
+TIME="1288130612"
+SIZE="751"
+PARENT="<project>\smartgen\program_table_mem\program_table_mem.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\program_table_mem\program_table_mem.log,log"
+STATE="utd"
+TIME="1288130613"
+SIZE="3042"
+PARENT="<project>\smartgen\program_table_mem\program_table_mem.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\program_table_mem\program_table_mem.v,hdl"
+STATE="utd"
+TIME="1288130613"
+SIZE="5982"
+PARENT="<project>\smartgen\program_table_mem\program_table_mem.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\program_table_mem\program_table_mem_R0C0.mem,sim"
+STATE="utd"
+TIME="1288130613"
+SIZE="5632"
+PARENT="<project>\smartgen\program_table_mem\program_table_mem.cxf"
+ENDFILE
+VALUE "<project>\smartgen\program_table_mem\program_table_mem_R0C1.mem,sim"
+STATE="utd"
+TIME="1288130613"
+SIZE="5632"
+PARENT="<project>\smartgen\program_table_mem\program_table_mem.cxf"
+ENDFILE
+VALUE "<project>\smartgen\program_table_mem\program_table_mem_R0C2.mem,sim"
+STATE="utd"
+TIME="1288130613"
+SIZE="5632"
+PARENT="<project>\smartgen\program_table_mem\program_table_mem.cxf"
+ENDFILE
+VALUE "<project>\smartgen\program_table_mem\program_table_mem_R0C3.mem,sim"
+STATE="utd"
+TIME="1288130613"
+SIZE="5632"
+PARENT="<project>\smartgen\program_table_mem\program_table_mem.cxf"
+ENDFILE
+VALUE "<project>\smartgen\program_table_mem\program_table_mem_R0C4.mem,sim"
+STATE="utd"
+TIME="1287942599"
+SIZE="5632"
+PARENT="<project>\smartgen\program_table_mem\program_table_mem.cxf"
+ENDFILE
+VALUE "<project>\smartgen\program_table_mem\program_table_mem_R0C5.mem,sim"
+STATE="utd"
+TIME="1287942599"
+SIZE="5632"
+PARENT="<project>\smartgen\program_table_mem\program_table_mem.cxf"
+ENDFILE
+VALUE "<project>\smartgen\program_table_mem\program_table_mem_R0C6.mem,sim"
+STATE="utd"
+TIME="1287942599"
+SIZE="5632"
+PARENT="<project>\smartgen\program_table_mem\program_table_mem.cxf"
+ENDFILE
+VALUE "<project>\smartgen\program_table_mem\program_table_mem_R0C7.mem,sim"
+STATE="utd"
+TIME="1287942599"
+SIZE="5632"
+PARENT="<project>\smartgen\program_table_mem\program_table_mem.cxf"
+ENDFILE
+VALUE "<project>\synthesis\io_controller.edn,syn_edn"
+STATE="ood"
+TIME="1289751812"
+SIZE="64597"
+ENDFILE
+VALUE "<project>\synthesis\io_controller_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1289751812"
+SIZE="376"
+ENDFILE
+VALUE "<project>\synthesis\main.edn,syn_edn"
+STATE="utd"
+TIME="1290109161"
+SIZE="303315"
+ENDFILE
+VALUE "<project>\synthesis\main.v,syn_hdl"
+STATE="ood"
+TIME="1289926503"
+SIZE="75237"
+ENDFILE
+VALUE "<project>\synthesis\main_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1290109161"
+SIZE="381"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "main::work"
+FILE "<project>\hdl\main.v,hdl"
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Layout
+ideSYNTHESIS(<project>\synthesis\main.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\main.adb,adb)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "program_table_mem::work"
+FILE "<project>\smartgen\program_table_mem\program_table_mem.v,hdl"
+LIST Other_Association
+VALUE "<project>\smartgen\program_table_mem\program_table_mem_R0C0.mem,sim"
+VALUE "<project>\smartgen\program_table_mem\program_table_mem_R0C1.mem,sim"
+VALUE "<project>\smartgen\program_table_mem\program_table_mem_R0C2.mem,sim"
+VALUE "<project>\smartgen\program_table_mem\program_table_mem_R0C3.mem,sim"
+VALUE "<project>\smartgen\program_table_mem\program_table_mem_R0C4.mem,sim"
+VALUE "<project>\smartgen\program_table_mem\program_table_mem_R0C5.mem,sim"
+VALUE "<project>\smartgen\program_table_mem\program_table_mem_R0C6.mem,sim"
+VALUE "<project>\smartgen\program_table_mem\program_table_mem_R0C7.mem,sim"
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+ENDLIST
+LIST Other_Association
+LIST program_table_mem
+VALUE "<project>\smartgen\program_table_mem\program_table_mem_R0C0.mem,sim"
+VALUE "<project>\smartgen\program_table_mem\program_table_mem_R0C1.mem,sim"
+VALUE "<project>\smartgen\program_table_mem\program_table_mem_R0C2.mem,sim"
+VALUE "<project>\smartgen\program_table_mem\program_table_mem_R0C3.mem,sim"
+VALUE "<project>\smartgen\program_table_mem\program_table_mem_R0C4.mem,sim"
+VALUE "<project>\smartgen\program_table_mem\program_table_mem_R0C5.mem,sim"
+VALUE "<project>\smartgen\program_table_mem\program_table_mem_R0C6.mem,sim"
+VALUE "<project>\smartgen\program_table_mem\program_table_mem_R0C7.mem,sim"
+ENDLIST
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DumpVCD=false
+VCDFileName=power.vcd
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateViewDrawIni=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+GenerateHDLFromSchematic=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="Synplify AE"
+FUNCTION="Synthesis"
+TOOL="Synplify"
+LOCATION="C:\Actel\Libero_v9.0\Synopsys\synplify_D200912A\bin\Synplify_pro.exe"
+PARAM=""
+BATCH=0
+EndProfile
+NAME="ModelSim AE"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="C:\Actel\Libero_v9.0\Model\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+EndProfile
+NAME="WFL"
+FUNCTION="Stimulus"
+TOOL="WFL"
+LOCATION="syncad.exe"
+PARAM="-pwflite"
+BATCH=0
+EndProfile
+NAME="FlashPro"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Actel\Libero_v9.0\Designer\bin\FlashPro.exe"
+PARAM=""
+BATCH=0
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "main::work"
+LIST Impl1
+LiberoState=Post_Layout
+ideSYNTHESIS(<project>\synthesis\main.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\main.adb,adb)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+DESIGNFLOW:
+ACTIVE_VIEW:0
+ENDLIST
